@@ -106,7 +106,7 @@ def process_conversations():
         if not all_conversations:
             sys.stderr.write("Error: No raw conversations loaded from raw_conversations.json after export.\n")
             sys.exit(1)
-    with open('conversations.md', 'w', encoding='utf-8') as f_out:
+    with open(f"conversations_{datetime.now().strftime('%Y%m%d_%H%M%S')}.md", 'w', encoding='utf-8') as f_out:
         for conversation in all_conversations:
             if str(conversation.get('id')) in [str(x) for x in conversation_ids]:
                 try:

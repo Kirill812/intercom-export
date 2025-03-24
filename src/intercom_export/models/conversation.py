@@ -3,7 +3,7 @@ Data models for Intercom conversations and related entities.
 """
 
 from dataclasses import dataclass, field
-from datetime import datetime
+from datetime import datetime, timedelta
 from typing import List, Dict, Optional, Any
 
 @dataclass
@@ -36,7 +36,7 @@ class Message:
                 type=data['author']['type'],
                 email=data['author'].get('email')
             ),
-            created_at=datetime.utcfromtimestamp(data['created_at']),
+            created_at=datetime.utcfromtimestamp(data['created_at']) + timedelta(hours=2),
             type=data['part_type'],
             metadata={
                 k: v for k, v in data.items()
@@ -63,14 +63,14 @@ class Conversation:
         """Create a Conversation instance from API response data."""
         messages = []
         
-        # Add initial message
+        # Add initial message if present.
         if 'conversation_message' in data:
             messages.append(Message.from_api_data({
                 **data['conversation_message'],
                 'part_type': 'comment'
             }))
         
-        # Add subsequent messages
+        # Add subsequent messages.
         if 'conversation_parts' in data:
             parts = data['conversation_parts'].get('conversation_parts', [])
             for part in parts:
@@ -85,8 +85,8 @@ class Conversation:
         
         return cls(
             id=data['id'],
-            created_at=datetime.utcfromtimestamp(data['created_at']),
-            updated_at=datetime.utcfromtimestamp(data['updated_at']),
+            created_at=datetime.utcfromtimestamp(data['created_at']) + timedelta(hours=2),
+            updated_at=datetime.utcfromtimestamp(data['updated_at']) + timedelta(hours=2),
             title=data.get('title'),
             state=data.get('state', 'open'),
             messages=messages,

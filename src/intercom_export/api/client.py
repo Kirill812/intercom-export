@@ -108,21 +108,47 @@ class IntercomClient:
         else:
             raise IntercomAPIError(error_msg, response)
 
+    def _determine_batch_size(self, total_items: int) -> int:
+        """Determine optimal batch size based on system resources and total items."""
+        import os
+        configured_batch = getattr(self.config, 'batch_size', None)
+        if configured_batch is not None:
+            return configured_batch
+        cpu_count = os.cpu_count() or 4
+        suggested_size = max(10, min(50, total_items // (cpu_count * 2) or 10))
+        return suggested_size
+
     def get_conversations(self, conversation_ids: list, batch_size: int = None) -> list:
-        """Fetch conversations for given IDs, optionally in batches."""
+        """Fetch conversations for given IDs using intelligent batching."""
         if batch_size is None:
-            batch_size = len(conversation_ids)
+            batch_size = self._determine_batch_size(len(conversation_ids))
+            logger.info(f"Using intelligent batch size of {batch_size} for {len(conversation_ids)} conversations")
         all_conversations = []
         for i in range(0, len(conversation_ids), batch_size):
             batch = conversation_ids[i:i+batch_size]
-            # Changed payload structure to match expected query format
-            payload = {"display_as": "plaintext", "query": {"value": [{"value": batch}]}}
-            response = self.session.post(f"{self.config.base_url}/conversations", json=payload)
-            data = self._handle_response(response)
-            convs = data.get("conversations", [])
-            if not convs and len(batch) == 1:
-                raise IntercomAPIError(f"Conversation {batch[0]} not found", response)
-            all_conversations.extend(convs)
+            payload = {"display_as": "plaintext", "expand": ["conversation_message"], "query": {"value": [{"value": batch}]}}
+            max_attempts = 3
+            for attempt in range(max_attempts):
+                try:
+                    response = self.session.post(f"{self.config.base_url}/conversations", json=payload)
+                    data = self._handle_response(response)
+                    convs = data.get("conversations", [])
+                    if not convs and len(batch) == 1:
+                        raise IntercomAPIError(f"Conversation {batch[0]} not found", response)
+                    all_conversations.extend(convs)
+                    break
+                except RateLimitError as e:
+                    if attempt < max_attempts - 1:
+                        wait_time = e.retry_after or (2 ** attempt)
+                        logger.warning(f"Rate limit hit, waiting {wait_time}s before retrying...")
+                        time.sleep(wait_time)
+                        if len(batch) > 1:
+                            half_batch = len(batch) // 2
+                            batch = batch[:half_batch]
+                            logger.info(f"Reducing batch size to {len(batch)} for retry")
+                    else:
+                        raise
+            logger.info(f"Processed {min(i + batch_size, len(conversation_ids))}/{len(conversation_ids)} conversations")
         return all_conversations
 
     def get_conversation(self, conversation_id) -> dict:
@@ -140,7 +166,7 @@ class IntercomClient:
             return data
 
         # Fallback to POST request if GET did not return the expected conversation.
-        payload = {"display_as": "plaintext", "query": {"value": [{"value": conversation_id}]}}
+        payload = {"display_as": "plaintext", "expand": ["conversation_message"], "query": {"value": [{"value": [conversation_id]}]}}
         response = self.session.post(f"{self.config.base_url}/conversations", json=payload)
         data = self._handle_response(response)
         convs = data.get("conversations", [])
