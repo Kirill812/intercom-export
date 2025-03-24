@@ -1,0 +1,24 @@
+# Test configuration file for Intercom Export
+
+intercom:
+  # API configuration
+  api_token: "test-token"
+  base_url: "https://api.intercom.io"
+  api_version: "2.8"
+
+export:
+  # Export settings
+  output_format: "markdown"
+  output_dir: "test_exports"
+  batch_size: 15
+  include_metadata: true
+  include_context: true
+
+# Test conversation IDs
+conversation_ids:
+  - 123456
+  - 123457
+  - 123458
+
+# Debug mode
+debug: false
