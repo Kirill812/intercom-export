@@ -399,7 +399,7 @@ Caused by: java.util.concurrent.TimeoutException: The source did not signal an e
 
 **Author:** Антон Морозов (user)
 
-<div class="intercom-container"><img src="https://downloads.intercomcdn.com/i/o/iafshagq/1437407869/21f6bd20f8784eed5003c435de9d/1000014712.jpg?expires=1742841900&amp;signature=45272ce71dd5f8db5013e4961cd78f6224c3a0fba64d631b122c5c307772632f&amp;req=dSQkEc1%2BmolZUPMW1HO4zTkQ6pmwN%2B0pXYv9D0mGJvpqu7LoJJpyqxb8l9st%0AKNz33afsakO26pfcZFg%3D%0A"></div>
+<div class="intercom-container"><img src="https://downloads.intercomcdn.com/i/o/iafshagq/1437407869/21f6bd20f8784eed5003c435de9d/1000014712.jpg?expires=1742848200&amp;signature=517517a7abc03e2913b8c7c4b6b5450b65bd7c48456ee49d651e4aaa4b2d8579&amp;req=dSQkEc1%2BmolZUPMW1HO4zTkQ6pmwN%2BQiXYv9D0mGJvoVSg94UHpcqtejqNLY%0ALcbPq8FTKhGER9igAW4%3D%0A"></div>
 
 ### 2025-03-24 08:27:43
 
@@ -713,7 +713,7 @@ Caused by: java.util.concurrent.TimeoutException: The source did not signal an e
 
 **Author:** None (user)
 
-<div class="intercom-container"><img src="https://downloads.intercomcdn.com/i/o/iafshagq/1437595467/26474f6d5aef7a68643124251f20/1000039950.jpg?expires=1742841900&amp;signature=0e2edbe7599b6402ed93ab4b1341813d45e222b3443bcdd51b16975baff720d7&amp;req=dSQkEcx3mIVZXvMW1HO4zUYbI6BxVf7tuXbL6PGBZXFIxCL2j%2BOoSqjUPret%0A0MXQILihMDl6pRklY5Y%3D%0A"></div>
+<div class="intercom-container"><img src="https://downloads.intercomcdn.com/i/o/iafshagq/1437595467/26474f6d5aef7a68643124251f20/1000039950.jpg?expires=1742848200&amp;signature=e61b66174c99690e89dc74bad6889a19d7087ed9944ce9d164b32b85731a62c0&amp;req=dSQkEcx3mIVZXvMW1HO4zUYbI6BxVffmuXbL6PGBZXGPqc79o%2FKgzlxIhxP3%0A%2F2XmmWwis%2F4YFQXq1tk%3D%0A"></div>
 
 ### 2025-03-24 11:14:59
 
@@ -817,6 +817,12 @@ Caused by: java.util.concurrent.TimeoutException: The source did not signal an e
 **Author:** Alexandr Kalika (admin)
 
 надо понять куда он отправлял
+
+### 2025-03-24 22:38:01
+
+**Author:** Swooshy (bot)
+
+<p>Мы просто хотели уточнить, остались ли у вас вопросы?
 
 ---
 
@@ -1348,7 +1354,7 @@ Caused by: java.util.concurrent.TimeoutException: The source did not signal an e
 
 **Author:** None (user)
 
-<div class="intercom-container"><img src="https://downloads.intercomcdn.com/i/o/iafshagq/1437364078/5b087b58c5fa7873ad77908a1b4e/1003037900.jpg?expires=1742841900&amp;signature=34e74563590f0f992aa24b10a5a9976882bc43121469217bf3d96a73ce4f530c&amp;req=dSQkEcp4mYFYUfMW1HO4zRKn6zXHp6VOYgJc7sstDz0Ksg7TXmqw365mrhA5%0AVNXeL%2FplvUfB%2BJo2VYk%3D%0A"></div>
+<div class="intercom-container"><img src="https://downloads.intercomcdn.com/i/o/iafshagq/1437364078/5b087b58c5fa7873ad77908a1b4e/1003037900.jpg?expires=1742848200&amp;signature=557d38e8ac39d7f661d87e22faad0350e97aa0573cf070fd87b7222a162e51b7&amp;req=dSQkEcp4mYFYUfMW1HO4zRKn6zXHp6xFYgJc7sstDz16lZIMY6Omkcx9Ra8l%0AtaMbiDnG91HySorggwg%3D%0A"></div>
 
 ### 2025-03-24 07:06:19
 
@@ -1936,7 +1942,7 @@ Caused by: java.util.concurrent.TimeoutException: The source did not signal an e
 
 в логах только пройденная капча. даже метод SMS, а не CALL, не вижу звонок и других попыток авторизации
 
-<div class="intercom-container"><img src="https://downloads.intercomcdn.com/i/o/iafshagq/1438340536/7272cfc437d5b2e8792a01bd76d1/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA+%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0+2025-03-24+%D0%B2+17_21_26.png?expires=1742841900&amp;signature=dbb5b81c9e60810b87a08a7386854023a20cf4e99fcdc39251a920be648dde7f&amp;req=dSQkHsp6nYRcX%2FMW1HO4zZjQzXBDTtLHey%2FEuTr35ZgnHrHvdiB6bBXXedys%0A1X6mSjhWIqHbGDt8GvA%3D%0A"></div>
+<div class="intercom-container"><img src="https://downloads.intercomcdn.com/i/o/iafshagq/1438340536/7272cfc437d5b2e8792a01bd76d1/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA+%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0+2025-03-24+%D0%B2+17_21_26.png?expires=1742848200&amp;signature=1df0564a3f6ad3f2633a2239de0d251f7e46090fc77558787c1694711d2dacd1&amp;req=dSQkHsp6nYRcX%2FMW1HO4zZjQzXBDTtvMey%2FEuTr35ZhAczRM1aCtQbXhkLcw%0ASqZ6wnYugNe%2BFR5aIBc%3D%0A"></div>
 
 ### 2025-03-24 18:24:33
 
@@ -1955,6 +1961,12 @@ Caused by: java.util.concurrent.TimeoutException: The source did not signal an e
 **Author:** Alexandr Kalika (admin)
 
 Попробуйте, включить режим Полет на вашем устройстве на минуту, а затем выключить и запросить звонок. Если звонок не придет, нажмите, пожалуйста на кнопку Не могу принять звонок и запросите код в смс, чтобы завершить регистрацию
+
+### 2025-03-24 21:25:27
+
+**Author:** Swooshy (bot)
+
+<p>Мы просто хотели уточнить, остались ли у вас вопросы?
 
 ---
 
@@ -2514,7 +2526,7 @@ Your request is accepted. Account will be deleted in 72 hours.
 
 **Author:** Support Team (admin)
 
-<div class="intercom-container"><img src="https://downloads.intercomcdn.com/i/o/iafshagq/1327229423/e2874d33b933fc36badbce23a0f8/image.png?expires=1742841900&amp;signature=f813f8a71ae6f164d5a24adb36d5123a865f50aba36bc13d095914bd4549444d&amp;req=dSMlEct8lIVdWvMW1HO4zcd3G2AqJ0Djbibq64Tfem%2FWojHZ8cpMy1nl9xJk%0A0ORLp4ioddY1jXSFsls%3D%0A"></div><br>​﻿Dear customer,
+<div class="intercom-container"><img src="https://downloads.intercomcdn.com/i/o/iafshagq/1327229423/e2874d33b933fc36badbce23a0f8/image.png?expires=1742848200&amp;signature=2ba62c8b9d1170047e40e6c0354590dc5c9d69e2269c3e555d5fda24bbd05729&amp;req=dSMlEct8lIVdWvMW1HO4zcd3G2AqJ0nobibq64Tfem%2Bt0yINNeRgegtVm4by%0A%2Be0gv4nlAjt6QY2UyyQ%3D%0A"></div><br>​﻿Dear customer,
 
 
 
@@ -2586,7 +2598,7 @@ If you decide to use our services again in the future, you can always register a
 
 **Author:** Вячеслав Прусаков (user)
 
-<div class="intercom-container"><img src="https://downloads.intercomcdn.com/i/o/iafshagq/1436352767/8d5275166cb956a616c865b3c31b/117.jpg?expires=1742841900&amp;signature=470dc03053873d82ae42d59609cc2594fe194c53d57a11cffe76661802fe34d6&amp;req=dSQkEMp7n4ZZXvMW1HO4zT8Aj0U9bgpa9tdcNMAygZ0dgLi2iFflFuzkzkSh%0ASSLM3XfYlCFyKQnuiqs%3D%0A"></div>
+<div class="intercom-container"><img src="https://downloads.intercomcdn.com/i/o/iafshagq/1436352767/8d5275166cb956a616c865b3c31b/117.jpg?expires=1742848200&amp;signature=6a7097814b8c76baf6ec1c27f6432c8e471da25a6f502d8f7a8e9e010cda5a3e&amp;req=dSQkEMp7n4ZZXvMW1HO4zT8Aj0U9bgNR9tdcNMAygZ10AnmmK9LBdkr0zA0T%0AX9NxAN9lSiz%2B3Gk9FUc%3D%0A"></div>
 
 ### 2025-03-23 09:53:53
 
@@ -2604,7 +2616,7 @@ If you decide to use our services again in the future, you can always register a
 
 **Author:** Вячеслав Прусаков (user)
 
-<div class="intercom-container"><img src="https://downloads.intercomcdn.com/i/o/iafshagq/1436355054/c5af98690c852bb5243115db2bd9/118.jpg?expires=1742841900&amp;signature=dd68c6e6ca28ac9527feb29b8ab6cf65891f7a1ef915d2dc75a28a1dbadbaf04&amp;req=dSQkEMp7mIFaXfMW1HO4zRFIAd49fdVnIw3pDpYN9dweKwd24aI9W5vz73Ye%0ApWze6P%2F0ln3jae4uF%2FU%3D%0A"></div>
+<div class="intercom-container"><img src="https://downloads.intercomcdn.com/i/o/iafshagq/1436355054/c5af98690c852bb5243115db2bd9/118.jpg?expires=1742848200&amp;signature=3b6d383d169eac849134bfd9d64662c0f5ee78a2daa7fb840e7f84ecd56c7475&amp;req=dSQkEMp7mIFaXfMW1HO4zRFIAd49fdxsIw3pDpYN9dydQP7684F6kZiP%2Fpzi%0Ay5qaTvntizJKSCJcqtM%3D%0A"></div>
 
 ### 2025-03-24 06:52:14
 
@@ -2834,7 +2846,7 @@ If you decide to use our services again in the future, you can always register a
 
 **Author:** Korobkaak1  (user)
 
-<div class="intercom-container"><img src="https://downloads.intercomcdn.com/i/o/iafshagq/1435952321/c015c8508684d8b8501aeaa72e12/1000001520.jpg?expires=1742841900&amp;signature=5b9388ddbac9f100bd22b2199810b6f506e3f9375f12087edaf5821e8d4a5fed&amp;req=dSQkE8B7n4JdWPMW1HO4zajbRm4R6ga%2BHa8OpNdrGDCyw3bukffV0uWGA8%2BL%0A9OWCp2JzR2M8UY4k3ek%3D%0A"></div>
+<div class="intercom-container"><img src="https://downloads.intercomcdn.com/i/o/iafshagq/1435952321/c015c8508684d8b8501aeaa72e12/1000001520.jpg?expires=1742848200&amp;signature=667bca13a298cb576b903d5cece29adfa4cc8e8ba7f78e5942126ae44f7312ab&amp;req=dSQkE8B7n4JdWPMW1HO4zajbRm4R6g%2B1Ha8OpNdrGDCmWAd9xwY6EMMTcNg5%0AuA7C%2FToA10ABUXKCck8%3D%0A"></div>
 
 ### 2025-03-22 23:19:24
 
@@ -2846,7 +2858,7 @@ If you decide to use our services again in the future, you can always register a
 
 **Author:** Korobkaak1  (user)
 
-<div class="intercom-container"><img src="https://downloads.intercomcdn.com/i/o/iafshagq/1435964894/38a9d64c18b31285f3bbefa02b72/1000001522.jpg?expires=1742841900&amp;signature=9e9842d2d3847b8513ab9c8f02fbbdcf0b819af1e83c6d5f844393d2c91cf4cc&amp;req=dSQkE8B4mYlWXfMW1HO4zTYsTKyC7o5fV1%2BLDyRjwM0sKFEq%2BAoxq9nZu8JK%0AKZONcQ5LZ5674IiIOMA%3D%0A"></div>
+<div class="intercom-container"><img src="https://downloads.intercomcdn.com/i/o/iafshagq/1435964894/38a9d64c18b31285f3bbefa02b72/1000001522.jpg?expires=1742848200&amp;signature=6459d07c60d4b4296a01354c01e8c6dd71818f4fc8832bfccbf17673d28f6a14&amp;req=dSQkE8B4mYlWXfMW1HO4zTYsTKyC7odUV1%2BLDyRjwM3JLSsrgbOlp2yIvor1%0ARxo4%2F0Krh45%2F3dgxMW8%3D%0A"></div>
 
 ### 2025-03-24 07:07:18
 
@@ -3333,15 +3345,15 @@ If you decide to use our services again in the future, you can always register a
 
 
 
-<div class="intercom-container"><img src="https://downloads.intercomcdn.com/i/o/iafshagq/1437381499/52b2edc12f9982da2a766a3ac097/VUiS-4mWfuwtxWraUQB485inbf-ciQrwrA.png-1677582273?expires=1742841900&amp;signature=72d4d803889964411566a8f0d30d964d02d7ca64a15ca0ba7c0687054901158e&amp;req=dSQkEcp2nIVWUPMW1HO4zUrfaUc6Vu7kEJ7aMq6VuwvbPHwqE2tBWnvjGI1E%0A3C62Jvr%2BVIyayua2rJE%3D%0A"></div>2. Выберите карту, которую хотите сделать картой по умолчанию, и нажмите на неё, чтобы открыть данные.
+<div class="intercom-container"><img src="https://downloads.intercomcdn.com/i/o/iafshagq/1437381499/52b2edc12f9982da2a766a3ac097/VUiS-4mWfuwtxWraUQB485inbf-ciQrwrA.png-1677582273?expires=1742848200&amp;signature=e31503a5f25a962017140d74ec22e1a5ef738b401111da1f7e21b0d1b8c8f2d6&amp;req=dSQkEcp2nIVWUPMW1HO4zUrfaUc6VufvEJ7aMq6VuwsZ2xcGWPrZtR0onVA%2B%0AMz38apsETVdl7aYB6xY%3D%0A"></div>2. Выберите карту, которую хотите сделать картой по умолчанию, и нажмите на неё, чтобы открыть данные.
 
 
 
-<div class="intercom-container"><img src="https://downloads.intercomcdn.com/i/o/iafshagq/1437381503/4b13def9d9d6f8595d98054c03b0/EkH9TrZxxItZkLT9hXRf3crt1d_FlD07Aw.png-1677582295?expires=1742841900&amp;signature=b70767cd7099903035798dfdbd9bd394afb6595401ad1783d0e9c25501df6848&amp;req=dSQkEcp2nIRfWvMW1HO4zQZUsjG3OJrwjXvT5TdIt96v5cpx8OhYs%2BvzYHFp%0AZHHG8fW53dMUJLJbDcg%3D%0A"></div>3. Проверьте статус карты в строке <b>Оплата касанием</b> и нажмите <b>Установить основной</b>, чтобы платить картой по умолчанию.
+<div class="intercom-container"><img src="https://downloads.intercomcdn.com/i/o/iafshagq/1437381503/4b13def9d9d6f8595d98054c03b0/EkH9TrZxxItZkLT9hXRf3crt1d_FlD07Aw.png-1677582295?expires=1742848200&amp;signature=94090b470146e1721be6a398bd90c42d2f83358d468761804a1313fb02367807&amp;req=dSQkEcp2nIRfWvMW1HO4zQZUsjG3OJP7jXvT5TdIt96P6un8nbiEplUzjQZ8%0AsgQddAI1QmfUBte2nnM%3D%0A"></div>3. Проверьте статус карты в строке <b>Оплата касанием</b> и нажмите <b>Установить основной</b>, чтобы платить картой по умолчанию.
 
 
 
-<div class="intercom-container"><img src="https://downloads.intercomcdn.com/i/o/iafshagq/1437381502/b3151d3a36391bc3d6ae81d2c1cb/LY6T0KdGbzKLGNMF6idWPQboVUJgoX1yww.png-1677582735?expires=1742841900&amp;signature=334d74b9bd860f9bfaf5001dc4e5c8e91f20f56cecdf97e262e0a5a92b291883&amp;req=dSQkEcp2nIRfW%2FMW1HO4zTebXXI44ub6XgB%2FymGb5mOujVH%2FjWLgbLn8siLn%0AHlWPFvLrT0xBVAChBag%3D%0A"></div>Готово! Эта новая карта по умолчанию будет использоваться для платежей без необходимости открывать приложение.
+<div class="intercom-container"><img src="https://downloads.intercomcdn.com/i/o/iafshagq/1437381502/b3151d3a36391bc3d6ae81d2c1cb/LY6T0KdGbzKLGNMF6idWPQboVUJgoX1yww.png-1677582735?expires=1742848200&amp;signature=53451da19c8e050edbdb856eee4452265fd2ed63dceac87cf429f44ee495a262&amp;req=dSQkEcp2nIRfW%2FMW1HO4zTebXXI44u%2FxXgB%2FymGb5mMAliXCrknMayjKnsB%2B%0A7n15pir%2BGSt1so15r5U%3D%0A"></div>Готово! Эта новая карта по умолчанию будет использоваться для платежей без необходимости открывать приложение.
 
 ### 2025-03-24 10:26:17
 
@@ -3511,6 +3523,20 @@ Hi! You can configure this option in the application menu in the security sectio
 **Author:** Swooshy (bot)
 
 <p>Мы просто хотели уточнить, остались ли у вас вопросы?
+
+### 2025-03-24 21:47:03
+
+**Author:** Swooshy (bot)
+
+<p>Поскольку мы не получили от вас ответа, мы закрываем чат. Если у вас возникнут дополнительные вопросы, не стесняйтесь связаться с нами снова. 
+
+<p>Хорошего дня!
+
+### 2025-03-24 21:47:05
+
+**Author:** Swooshy (bot)
+
+<p>[Conversation Rating Request]
 
 ---
 

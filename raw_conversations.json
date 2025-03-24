@@ -113,6 +113,75 @@
       "topics": [],
       "total_count": 0
     },
+    "ticket": {
+      "type": "ticket",
+      "id": 57737,
+      "url": "https://app.intercom.com/a/apps/iafshagq/conversations/57737",
+      "custom_attributes": {
+        "_default_title_": {
+          "value": "AppError",
+          "type": "string"
+        },
+        "_default_description_": {
+          "value": "\u043f\u0440\u043e\u0431\u043b\u0435\u043c\u0430 \u0441 \u043f\u0440\u0438\u0432\u044f\u0437\u043a\u043e\u0439 \u043a\u0430\u0440\u0442\u044b. \u0434\u043d\u0435\u043c \u043f\u0440\u0438\u0448\u043b\u043e \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435 \u0447\u0442\u043e \u043f\u043b\u0430\u0442\u0435\u0436\u0438 \u043f\u043e \u043a\u0430\u0440\u0442\u0435 \u043f\u0440\u0438\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u044b. \u044f \u0443\u0434\u0430\u043b\u0438\u043b \u0438 \u043f\u044b\u0442\u0430\u044e\u0441\u044c \u0441\u043d\u043e\u0432\u0430 \u043f\u0440\u0438\u0432\u044f\u0437\u0430\u0442\u044c \u043a\u0430\u0440\u0442\u0443 \u0431\u043d\u0431. \u043f\u0438\u0448\u0435\u0442:\n\u0437\u0430\u043f\u0440\u043e\u0441 \u0432\u0440\u0435\u043c\u0435\u043d\u0438 \u043e\u0436\u0438\u0434\u0430\u043d\u0438\u044f \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u044f",
+          "type": "string"
+        },
+        "last_login_method": {
+          "value": null,
+          "type": "string"
+        },
+        "login_method": {
+          "value": "PHONE",
+          "type": "string"
+        },
+        "wallet_id": {
+          "value": "1748dd9482b3f3324f3aacW1478021",
+          "type": "string"
+        },
+        "country": {
+          "value": "\u0420\u043e\u0441\u0441\u0438\u044f",
+          "type": "string"
+        },
+        "os_version": {
+          "value": "12",
+          "type": "string"
+        },
+        "platform": {
+          "value": "HUAWEI, LNA-LX9",
+          "type": "string"
+        },
+        "app_version_code": {
+          "value": "2.74.2",
+          "type": "string"
+        },
+        "app_version": {
+          "value": "2.74.2",
+          "type": "string"
+        },
+        "account_id": {
+          "value": null,
+          "type": "string"
+        },
+        "logs_link": {
+          "value": "https://client-logs.swoo.app/prod/aa9ace56-4a2a-43a0-a605-a8bb64f47b83-full_zip_log_1748dd9482b3f3324f3aacW1478021_21:03:2025_19:57:086722504762555072978.zip",
+          "type": "string"
+        },
+        "screenshot_links": {
+          "value": null,
+          "type": "string"
+        },
+        "Swoo App screenshots": {
+          "value": null,
+          "type": "files"
+        }
+      },
+      "state": "resolved",
+      "ticket_type": "Customer Complaint",
+      "ticket_type_description": "Customer Complaint",
+      "ticket_type_emoji": "\ud83d\udc1b",
+      "ticket_custom_state_admin_label": "Resolved",
+      "ticket_custom_state_user_label": "Resolved"
+    },
     "conversation_parts": {
       "type": "conversation_part.list",
       "conversation_parts": [
@@ -498,6 +567,7 @@
       "topics": [],
       "total_count": 0
     },
+    "ticket": null,
     "conversation_parts": {
       "type": "conversation_part.list",
       "conversation_parts": [
@@ -1032,6 +1102,75 @@
       "topics": [],
       "total_count": 0
     },
+    "ticket": {
+      "type": "ticket",
+      "id": 57917,
+      "url": "https://app.intercom.com/a/apps/iafshagq/conversations/57917",
+      "custom_attributes": {
+        "_default_title_": {
+          "value": "CardUsage",
+          "type": "string"
+        },
+        "_default_description_": {
+          "value": "\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435. \u0412\u0447\u0435\u0440\u0430 \u0431\u044b\u043b\u0430 \u0432 \u043c\u0430\u0433\u0430\u0437\u0438\u043d\u0435 \"\u041a\u043e\u043f\u0435\u0447\u043a\u0430\" \u0438 \u0445\u043e\u0442\u0435\u043b\u0430 \u043e\u043f\u043b\u0430\u0442\u0438\u0442\u044c \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u043e\u043c, \u043d\u043e \u043d\u0430 \u044d\u043a\u0440\u0430\u043d\u0435 \u043f\u043e\u044f\u0432\u0438\u043b\u0430\u0441\u044c \u043d\u0430\u0434\u043f\u0438\u0441\u044c, \u0447\u0442\u043e \u043d\u0430\u0434\u043e \"\u0440\u0430\u0437\u0431\u043b\u043e\u043a\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u043a\u0430\u0440\u0442\u0443\". \u042f \u0441\u0434\u0435\u043b\u0430\u044e \u0432\u0441\u0435 \u043a\u0430\u043a \u0432\u044b \u043c\u043d\u0435 \u0441\u043e\u0432\u0435\u0442\u043e\u0432\u0430\u043b\u0438 \u0432 \u043f\u0440\u043e\u0448\u043b\u044b\u0439 \u0440\u0430\u0437, \u043d\u0438\u0447\u0435\u0433\u043e \u043d\u0435 \u043f\u043e\u043b\u0443\u0447\u0438\u043b\u043e\u0441\u044c. \u041f\u043e\u043c\u043e\u0433\u0438\u0442\u0435 \u0440\u0435\u0448\u0438\u0442\u044c \u043f\u0440\u043e\u0431\u043b\u0435\u043c\u0443 ",
+          "type": "string"
+        },
+        "last_login_method": {
+          "value": null,
+          "type": "string"
+        },
+        "login_method": {
+          "value": "PHONE",
+          "type": "string"
+        },
+        "wallet_id": {
+          "value": "1446faae0220ae55602b6cW1527785",
+          "type": "string"
+        },
+        "country": {
+          "value": "\u0411\u0435\u043b\u0430\u0440\u0443\u0441\u044c",
+          "type": "string"
+        },
+        "os_version": {
+          "value": "14",
+          "type": "string"
+        },
+        "platform": {
+          "value": "HONOR, BRP-NX1",
+          "type": "string"
+        },
+        "app_version_code": {
+          "value": "2.74.1",
+          "type": "string"
+        },
+        "app_version": {
+          "value": "2.74.1",
+          "type": "string"
+        },
+        "account_id": {
+          "value": "5bd07475-3aff-4088-8b49-7f72554a4a92",
+          "type": "string"
+        },
+        "logs_link": {
+          "value": "https://client-logs.swoo.app/prod/280bf725-495b-46c8-979d-16840b8f67bf-full_zip_log_1446faae0220ae55602b6cW1527785_23:03:2025_20:00:532509861627998056471.zip",
+          "type": "string"
+        },
+        "screenshot_links": {
+          "value": null,
+          "type": "string"
+        },
+        "Swoo App screenshots": {
+          "value": null,
+          "type": "files"
+        }
+      },
+      "state": "in_progress",
+      "ticket_type": "Customer Complaint",
+      "ticket_type_description": "Customer Complaint",
+      "ticket_type_emoji": "\ud83d\udc1b",
+      "ticket_custom_state_admin_label": "In progress",
+      "ticket_custom_state_user_label": "In progress"
+    },
     "conversation_parts": {
       "type": "conversation_part.list",
       "conversation_parts": [
@@ -1299,6 +1438,75 @@
       "type": "topic.list",
       "topics": [],
       "total_count": 0
+    },
+    "ticket": {
+      "type": "ticket",
+      "id": 57985,
+      "url": "https://app.intercom.com/a/apps/iafshagq/conversations/57985",
+      "custom_attributes": {
+        "_default_title_": {
+          "value": "\u041f\u0440\u043e\u0431\u043b\u0435\u043c\u0430 \u0441 swoo.",
+          "type": "string"
+        },
+        "_default_description_": {
+          "value": "\u0414\u043e\u0431\u0440\u044b\u0439 \u0434\u0435\u043d\u044c! \u041d\u0435 \u0440\u0430\u0431\u043e\u0442\u0430\u0435\u0442 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0430. \u041a\u0430\u043a \u043f\u0435\u0440\u0435\u0437\u0430\u0433\u0440\u0443\u0437\u0438\u0442\u044c, \u0447\u0442\u043e\u0431\u044b \u043d\u0435 \u043f\u043e\u0442\u0435\u0440\u044f\u0442\u044c \u0432\u0441\u0435 \u0434\u0430\u043d\u043d\u044b\u0435. \u0421\u043f\u0430\u0441\u0438\u0431\u043e.",
+          "type": "string"
+        },
+        "last_login_method": {
+          "value": null,
+          "type": "string"
+        },
+        "login_method": {
+          "value": null,
+          "type": "string"
+        },
+        "wallet_id": {
+          "value": null,
+          "type": "string"
+        },
+        "country": {
+          "value": null,
+          "type": "string"
+        },
+        "os_version": {
+          "value": null,
+          "type": "string"
+        },
+        "platform": {
+          "value": null,
+          "type": "string"
+        },
+        "app_version_code": {
+          "value": null,
+          "type": "string"
+        },
+        "app_version": {
+          "value": null,
+          "type": "string"
+        },
+        "account_id": {
+          "value": null,
+          "type": "string"
+        },
+        "logs_link": {
+          "value": null,
+          "type": "string"
+        },
+        "screenshot_links": {
+          "value": null,
+          "type": "string"
+        },
+        "Swoo App screenshots": {
+          "value": null,
+          "type": "files"
+        }
+      },
+      "state": "resolved",
+      "ticket_type": "Customer Complaint",
+      "ticket_type_description": "Customer Complaint",
+      "ticket_type_emoji": "\ud83d\udc1b",
+      "ticket_custom_state_admin_label": "Resolved",
+      "ticket_custom_state_user_label": "Resolved"
     },
     "conversation_parts": {
       "type": "conversation_part.list",
@@ -1697,6 +1905,75 @@
       "topics": [],
       "total_count": 0
     },
+    "ticket": {
+      "type": "ticket",
+      "id": 57618,
+      "url": "https://app.intercom.com/a/apps/iafshagq/conversations/57618",
+      "custom_attributes": {
+        "_default_title_": {
+          "value": "Other",
+          "type": "string"
+        },
+        "_default_description_": {
+          "value": "\u0414\u043e\u0431\u0440\u044b\u0439 \u0434\u0435\u043d\u044c. \u041d\u0430 \u0432\u0435\u0440\u0441\u0438\u0438 2.74.1 \u043f\u043e\u044f\u0432\u0438\u043b\u0441\u044f \u043e\u043f\u044f\u0442\u044c \u0431\u043e\u043b\u044c\u0448\u043e\u0439 \u0440\u0430\u0441\u0445\u043e\u0434 \u0437\u0430\u0440\u044f\u0434\u0430 \u0431\u0430\u0442\u0430\u0440\u0435\u0438, \u0432\u0435\u0440\u0441\u0438\u044f 2.74.3 \u044d\u0442\u0443 \u043f\u0440\u043e\u0431\u043b\u0435\u043c\u0443 \u043d\u0435 \u0438\u0441\u043f\u0440\u0430\u0432\u0438\u043b\u0430. \u0423\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u043e Google Pixel 7 Pro, \u0432\u0435\u0440\u0441\u0438\u044f \u041e\u0421 Android 16 Beta 3. \u041d\u043e\u043c\u0435\u0440 \u0441\u0431\u043e\u0440\u043a\u0438 BP22.250221.013",
+          "type": "string"
+        },
+        "last_login_method": {
+          "value": null,
+          "type": "string"
+        },
+        "login_method": {
+          "value": "UNKNOWN",
+          "type": "string"
+        },
+        "wallet_id": {
+          "value": "d543d79546be2fad10bb6bW1283275",
+          "type": "string"
+        },
+        "country": {
+          "value": "\u0420\u043e\u0441\u0441\u0438\u044f",
+          "type": "string"
+        },
+        "os_version": {
+          "value": "16",
+          "type": "string"
+        },
+        "platform": {
+          "value": "google, Pixel 7 Pro",
+          "type": "string"
+        },
+        "app_version_code": {
+          "value": "2.74.3",
+          "type": "string"
+        },
+        "app_version": {
+          "value": "2.74.3",
+          "type": "string"
+        },
+        "account_id": {
+          "value": "7d150db5-6fa2-4e90-9739-36f0d8c1d31a",
+          "type": "string"
+        },
+        "logs_link": {
+          "value": "https://client-logs.swoo.app/prod/461f0b6b-ae02-4369-a462-f2c01851c9da-full_zip_log_d543d79546be2fad10bb6bW1283275_21:03:2025_13:11:501215965936280339805.zip",
+          "type": "string"
+        },
+        "screenshot_links": {
+          "value": null,
+          "type": "string"
+        },
+        "Swoo App screenshots": {
+          "value": null,
+          "type": "files"
+        }
+      },
+      "state": "resolved",
+      "ticket_type": "Customer Complaint",
+      "ticket_type_description": "Customer Complaint",
+      "ticket_type_emoji": "\ud83d\udc1b",
+      "ticket_custom_state_admin_label": "Resolved",
+      "ticket_custom_state_user_label": "Resolved"
+    },
     "conversation_parts": {
       "type": "conversation_part.list",
       "conversation_parts": [
@@ -1954,7 +2231,7 @@
           "type": "conversation_part",
           "id": "574684",
           "part_type": "comment",
-          "body": "<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/iafshagq/1437407869/21f6bd20f8784eed5003c435de9d/1000014712.jpg?expires=1742841900&amp;signature=45272ce71dd5f8db5013e4961cd78f6224c3a0fba64d631b122c5c307772632f&amp;req=dSQkEc1%2BmolZUPMW1HO4zTkQ6pmwN%2B0pXYv9D0mGJvpqu7LoJJpyqxb8l9st%0AKNz33afsakO26pfcZFg%3D%0A\"></div>",
+          "body": "<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/iafshagq/1437407869/21f6bd20f8784eed5003c435de9d/1000014712.jpg?expires=1742848200&amp;signature=517517a7abc03e2913b8c7c4b6b5450b65bd7c48456ee49d651e4aaa4b2d8579&amp;req=dSQkEc1%2BmolZUPMW1HO4zTkQ6pmwN%2BQiXYv9D0mGJvoVSg94UHpcqtejqNLY%0ALcbPq8FTKhGER9igAW4%3D%0A\"></div>",
           "created_at": 1742792322,
           "updated_at": 1742792322,
           "notified_at": 1742792322,
@@ -2303,6 +2580,7 @@
       "topics": [],
       "total_count": 0
     },
+    "ticket": null,
     "conversation_parts": {
       "type": "conversation_part.list",
       "conversation_parts": [
@@ -2942,6 +3220,75 @@
       "topics": [],
       "total_count": 0
     },
+    "ticket": {
+      "type": "ticket",
+      "id": 57973,
+      "url": "https://app.intercom.com/a/apps/iafshagq/conversations/57973",
+      "custom_attributes": {
+        "_default_title_": {
+          "value": "\u0418\u0437-\u0437\u0430 Swoo \u043e\u0447\u0435\u043d\u044c \u0438\u043b\u044c\u043d\u044b\u0439 \u0440\u0430\u0441\u0445\u043e\u0434 \u0437\u0430\u0440\u044f\u0434\u0430 \u0431\u0430\u0442\u0430\u0440\u0435\u0438",
+          "type": "string"
+        },
+        "_default_description_": {
+          "value": "\u041f\u043e\u0441\u043b\u0435 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u0433\u043e \u043e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u044f, \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435 \u0441\u0442\u0430\u043b\u043e \u043e\u0447\u0435\u043d\u044c \u0441\u0438\u043b\u044c\u043d\u043e \u0440\u0430\u0437\u0440\u044f\u0436\u0430\u0442\u044c \u0430\u043a\u043a\u0443\u043c\u0443\u043b\u044f\u0442\u043e\u0440. Swoo \u0432 \u0440\u0435\u0436\u0438\u043c\u0435 \u0440\u0430\u0431\u043e\u0442\u0430\u043b\u043e 5 \u043c\u0438\u043d\u0443\u0442, \u0432 \u0444\u043e\u043d\u043e\u0432\u043e\u043c \u0440\u0435\u0436\u0438\u043c\u0435 26 \u043c\u0438\u043d\u0443\u0442, \u0430 \u0443\u0448\u043b\u043e 26% \u0437\u0430\u0440\u044f\u0434\u0430. \u041c\u043e\u0436\u0435\u0442 \u044d\u0442\u043e \u0438\u0437-\u0437\u0430 \u0432\u0438\u0434\u0436\u0435\u0442\u0430? \u041b\u0430\u0443\u043d\u0447\u0435\u0440 \u043e\u0431\u043e\u043b\u043e\u0447\u043a\u0438, \u043a\u043e\u0442\u043e\u0440\u044b\u0439 \u0440\u0430\u0431\u043e\u0442\u0430\u0435\u0442 \u0447\u0430\u0441\u0430\u043c\u0438, \u0430 \u0432 \u0444\u043e\u043d\u0435 \u0441\u0443\u0442\u043a\u0430\u043c\u0438 \u0438 \u0442\u043e \u0441\u044a\u0435\u043b 16%.",
+          "type": "string"
+        },
+        "last_login_method": {
+          "value": null,
+          "type": "string"
+        },
+        "login_method": {
+          "value": null,
+          "type": "string"
+        },
+        "wallet_id": {
+          "value": null,
+          "type": "string"
+        },
+        "country": {
+          "value": null,
+          "type": "string"
+        },
+        "os_version": {
+          "value": null,
+          "type": "string"
+        },
+        "platform": {
+          "value": null,
+          "type": "string"
+        },
+        "app_version_code": {
+          "value": null,
+          "type": "string"
+        },
+        "app_version": {
+          "value": null,
+          "type": "string"
+        },
+        "account_id": {
+          "value": null,
+          "type": "string"
+        },
+        "logs_link": {
+          "value": null,
+          "type": "string"
+        },
+        "screenshot_links": {
+          "value": null,
+          "type": "string"
+        },
+        "Swoo App screenshots": {
+          "value": null,
+          "type": "files"
+        }
+      },
+      "state": "waiting_on_customer",
+      "ticket_type": "Customer Complaint",
+      "ticket_type_description": "Customer Complaint",
+      "ticket_type_emoji": "\ud83d\udc1b",
+      "ticket_custom_state_admin_label": "Waiting on customer",
+      "ticket_custom_state_user_label": "Waiting on you"
+    },
     "conversation_parts": {
       "type": "conversation_part.list",
       "conversation_parts": [
@@ -3130,9 +3477,9 @@
     "type": "conversation",
     "id": "57956",
     "created_at": 1742752758,
-    "updated_at": 1742836589,
+    "updated_at": 1742845082,
     "waiting_since": null,
-    "snoozed_until": null,
+    "snoozed_until": 1742855882,
     "source": {
       "type": "conversation",
       "id": "2770260258",
@@ -3166,8 +3513,8 @@
     "admin_assignee_id": 7012902,
     "team_assignee_id": 7661530,
     "open": true,
-    "state": "open",
-    "read": true,
+    "state": "snoozed",
+    "read": false,
     "tags": {
       "type": "tag.list",
       "tags": [
@@ -3214,7 +3561,7 @@
       "last_closed_by_id": null,
       "count_reopens": 0,
       "count_assignments": 6,
-      "count_conversation_parts": 50
+      "count_conversation_parts": 52
     },
     "conversation_rating": null,
     "teammates": {
@@ -3242,6 +3589,75 @@
       "type": "topic.list",
       "topics": [],
       "total_count": 0
+    },
+    "ticket": {
+      "type": "ticket",
+      "id": 57956,
+      "url": "https://app.intercom.com/a/apps/iafshagq/conversations/57956",
+      "custom_attributes": {
+        "_default_title_": {
+          "value": null,
+          "type": "string"
+        },
+        "_default_description_": {
+          "value": null,
+          "type": "string"
+        },
+        "last_login_method": {
+          "value": null,
+          "type": "string"
+        },
+        "login_method": {
+          "value": null,
+          "type": "string"
+        },
+        "wallet_id": {
+          "value": null,
+          "type": "string"
+        },
+        "country": {
+          "value": null,
+          "type": "string"
+        },
+        "os_version": {
+          "value": null,
+          "type": "string"
+        },
+        "platform": {
+          "value": null,
+          "type": "string"
+        },
+        "app_version_code": {
+          "value": null,
+          "type": "string"
+        },
+        "app_version": {
+          "value": null,
+          "type": "string"
+        },
+        "account_id": {
+          "value": null,
+          "type": "string"
+        },
+        "logs_link": {
+          "value": null,
+          "type": "string"
+        },
+        "screenshot_links": {
+          "value": null,
+          "type": "string"
+        },
+        "Swoo App screenshots": {
+          "value": null,
+          "type": "files"
+        }
+      },
+      "state": "in_progress",
+      "ticket_type": "Crypto",
+      "ticket_type_description": "Crypto wallet related issues",
+      "ticket_type_emoji": "\ud83d\udcb0",
+      "ticket_custom_state_admin_label": "In progress",
+      "ticket_custom_state_user_label": "In progress"
     },
     "conversation_parts": {
       "type": "conversation_part.list",
@@ -3778,7 +4194,7 @@
           "type": "conversation_part",
           "id": "574971",
           "part_type": "comment",
-          "body": "<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/iafshagq/1437595467/26474f6d5aef7a68643124251f20/1000039950.jpg?expires=1742841900&amp;signature=0e2edbe7599b6402ed93ab4b1341813d45e222b3443bcdd51b16975baff720d7&amp;req=dSQkEcx3mIVZXvMW1HO4zUYbI6BxVf7tuXbL6PGBZXFIxCL2j%2BOoSqjUPret%0A0MXQILihMDl6pRklY5Y%3D%0A\"></div>",
+          "body": "<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/iafshagq/1437595467/26474f6d5aef7a68643124251f20/1000039950.jpg?expires=1742848200&amp;signature=e61b66174c99690e89dc74bad6889a19d7087ed9944ce9d164b32b85731a62c0&amp;req=dSQkEcx3mIVZXvMW1HO4zUYbI6BxVffmuXbL6PGBZXGPqc79o%2FKgzlxIhxP3%0A%2F2XmmWwis%2F4YFQXq1tk%3D%0A\"></div>",
           "created_at": 1742804092,
           "updated_at": 1742804092,
           "notified_at": 1742804092,
@@ -4194,9 +4610,47 @@
           "attachments": [],
           "external_id": null,
           "redacted": false
+        },
+        {
+          "type": "conversation_part",
+          "id": "576243",
+          "part_type": "comment",
+          "body": "<p>\u041c\u044b \u043f\u0440\u043e\u0441\u0442\u043e \u0445\u043e\u0442\u0435\u043b\u0438 \u0443\u0442\u043e\u0447\u043d\u0438\u0442\u044c, \u043e\u0441\u0442\u0430\u043b\u0438\u0441\u044c \u043b\u0438 \u0443 \u0432\u0430\u0441 \u0432\u043e\u043f\u0440\u043e\u0441\u044b?</p>",
+          "created_at": 1742845081,
+          "updated_at": 1742845081,
+          "notified_at": 1742845081,
+          "assigned_to": null,
+          "author": {
+            "id": "6801800",
+            "type": "bot",
+            "name": "Swooshy",
+            "email": "operator+iafshagq@intercom.io"
+          },
+          "attachments": [],
+          "external_id": null,
+          "redacted": false
+        },
+        {
+          "type": "conversation_part",
+          "id": "576244",
+          "part_type": "snoozed",
+          "body": null,
+          "created_at": 1742845082,
+          "updated_at": 1742845082,
+          "notified_at": 1742845082,
+          "assigned_to": null,
+          "author": {
+            "id": "6801800",
+            "type": "bot",
+            "name": "Swooshy",
+            "email": "operator+iafshagq@intercom.io"
+          },
+          "attachments": [],
+          "external_id": null,
+          "redacted": false
         }
       ],
-      "total_count": 49
+      "total_count": 51
     }
   },
   {
@@ -4326,6 +4780,7 @@
       "topics": [],
       "total_count": 0
     },
+    "ticket": null,
     "conversation_parts": {
       "type": "conversation_part.list",
       "conversation_parts": [
@@ -5337,6 +5792,7 @@
       "topics": [],
       "total_count": 0
     },
+    "ticket": null,
     "conversation_parts": {
       "type": "conversation_part.list",
       "conversation_parts": [
@@ -5824,6 +6280,7 @@
       "topics": [],
       "total_count": 0
     },
+    "ticket": null,
     "conversation_parts": {
       "type": "conversation_part.list",
       "conversation_parts": [
@@ -6336,6 +6793,7 @@
       ],
       "total_count": 1
     },
+    "ticket": null,
     "conversation_parts": {
       "type": "conversation_part.list",
       "conversation_parts": [
@@ -6843,7 +7301,7 @@
           "type": "conversation_part",
           "id": "574499",
           "part_type": "comment",
-          "body": "<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/iafshagq/1437364078/5b087b58c5fa7873ad77908a1b4e/1003037900.jpg?expires=1742841900&amp;signature=34e74563590f0f992aa24b10a5a9976882bc43121469217bf3d96a73ce4f530c&amp;req=dSQkEcp4mYFYUfMW1HO4zRKn6zXHp6VOYgJc7sstDz0Ksg7TXmqw365mrhA5%0AVNXeL%2FplvUfB%2BJo2VYk%3D%0A\"></div>",
+          "body": "<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/iafshagq/1437364078/5b087b58c5fa7873ad77908a1b4e/1003037900.jpg?expires=1742848200&amp;signature=557d38e8ac39d7f661d87e22faad0350e97aa0573cf070fd87b7222a162e51b7&amp;req=dSQkEcp4mYFYUfMW1HO4zRKn6zXHp6xFYgJc7sstDz16lZIMY6Omkcx9Ra8l%0AtaMbiDnG91HySorggwg%3D%0A\"></div>",
           "created_at": 1742789167,
           "updated_at": 1742789167,
           "notified_at": 1742789167,
@@ -7190,6 +7648,7 @@
       ],
       "total_count": 1
     },
+    "ticket": null,
     "conversation_parts": {
       "type": "conversation_part.list",
       "conversation_parts": [
@@ -8175,6 +8634,7 @@
       "topics": [],
       "total_count": 0
     },
+    "ticket": null,
     "conversation_parts": {
       "type": "conversation_part.list",
       "conversation_parts": [
@@ -8724,6 +9184,7 @@
       "topics": [],
       "total_count": 0
     },
+    "ticket": null,
     "conversation_parts": {
       "type": "conversation_part.list",
       "conversation_parts": [
@@ -9580,9 +10041,9 @@
     "type": "conversation",
     "id": "57870",
     "created_at": 1742731637,
-    "updated_at": 1742832320,
+    "updated_at": 1742840728,
     "waiting_since": null,
-    "snoozed_until": null,
+    "snoozed_until": 1742851527,
     "source": {
       "type": "conversation",
       "id": "2769745207",
@@ -9616,7 +10077,7 @@
     "admin_assignee_id": 7012902,
     "team_assignee_id": 6801802,
     "open": true,
-    "state": "open",
+    "state": "snoozed",
     "read": false,
     "tags": {
       "type": "tag.list",
@@ -9654,7 +10115,7 @@
       "last_closed_by_id": 6801800,
       "count_reopens": 2,
       "count_assignments": 3,
-      "count_conversation_parts": 33
+      "count_conversation_parts": 35
     },
     "conversation_rating": {
       "rating": 3,
@@ -9693,6 +10154,7 @@
       "topics": [],
       "total_count": 0
     },
+    "ticket": null,
     "conversation_parts": {
       "type": "conversation_part.list",
       "conversation_parts": [
@@ -10241,7 +10703,7 @@
           "type": "conversation_part",
           "id": "575748",
           "part_type": "note",
-          "body": "<p class=\"no-margin\">\u0432 \u043b\u043e\u0433\u0430\u0445 \u0442\u043e\u043b\u044c\u043a\u043e \u043f\u0440\u043e\u0439\u0434\u0435\u043d\u043d\u0430\u044f \u043a\u0430\u043f\u0447\u0430. \u0434\u0430\u0436\u0435 \u043c\u0435\u0442\u043e\u0434 SMS, \u0430 \u043d\u0435 CALL, \u043d\u0435 \u0432\u0438\u0436\u0443 \u0437\u0432\u043e\u043d\u043e\u043a \u0438 \u0434\u0440\u0443\u0433\u0438\u0445 \u043f\u043e\u043f\u044b\u0442\u043e\u043a \u0430\u0432\u0442\u043e\u0440\u0438\u0437\u0430\u0446\u0438\u0438</p>\n<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/iafshagq/1438340536/7272cfc437d5b2e8792a01bd76d1/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA+%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0+2025-03-24+%D0%B2+17_21_26.png?expires=1742841900&amp;signature=dbb5b81c9e60810b87a08a7386854023a20cf4e99fcdc39251a920be648dde7f&amp;req=dSQkHsp6nYRcX%2FMW1HO4zZjQzXBDTtLHey%2FEuTr35ZgnHrHvdiB6bBXXedys%0A1X6mSjhWIqHbGDt8GvA%3D%0A\"></div>",
+          "body": "<p class=\"no-margin\">\u0432 \u043b\u043e\u0433\u0430\u0445 \u0442\u043e\u043b\u044c\u043a\u043e \u043f\u0440\u043e\u0439\u0434\u0435\u043d\u043d\u0430\u044f \u043a\u0430\u043f\u0447\u0430. \u0434\u0430\u0436\u0435 \u043c\u0435\u0442\u043e\u0434 SMS, \u0430 \u043d\u0435 CALL, \u043d\u0435 \u0432\u0438\u0436\u0443 \u0437\u0432\u043e\u043d\u043e\u043a \u0438 \u0434\u0440\u0443\u0433\u0438\u0445 \u043f\u043e\u043f\u044b\u0442\u043e\u043a \u0430\u0432\u0442\u043e\u0440\u0438\u0437\u0430\u0446\u0438\u0438</p>\n<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/iafshagq/1438340536/7272cfc437d5b2e8792a01bd76d1/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA+%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0+2025-03-24+%D0%B2+17_21_26.png?expires=1742848200&amp;signature=1df0564a3f6ad3f2633a2239de0d251f7e46090fc77558787c1694711d2dacd1&amp;req=dSQkHsp6nYRcX%2FMW1HO4zZjQzXBDTtvMey%2FEuTr35ZhAczRM1aCtQbXhkLcw%0ASqZ6wnYugNe%2BFR5aIBc%3D%0A\"></div>",
           "created_at": 1742829736,
           "updated_at": 1742829736,
           "notified_at": 1742829736,
@@ -10312,9 +10774,47 @@
           "attachments": [],
           "external_id": null,
           "redacted": false
+        },
+        {
+          "type": "conversation_part",
+          "id": "576158",
+          "part_type": "comment",
+          "body": "<p>\u041c\u044b \u043f\u0440\u043e\u0441\u0442\u043e \u0445\u043e\u0442\u0435\u043b\u0438 \u0443\u0442\u043e\u0447\u043d\u0438\u0442\u044c, \u043e\u0441\u0442\u0430\u043b\u0438\u0441\u044c \u043b\u0438 \u0443 \u0432\u0430\u0441 \u0432\u043e\u043f\u0440\u043e\u0441\u044b?</p>",
+          "created_at": 1742840727,
+          "updated_at": 1742840727,
+          "notified_at": 1742840727,
+          "assigned_to": null,
+          "author": {
+            "id": "6801800",
+            "type": "bot",
+            "name": "Swooshy",
+            "email": "operator+iafshagq@intercom.io"
+          },
+          "attachments": [],
+          "external_id": null,
+          "redacted": false
+        },
+        {
+          "type": "conversation_part",
+          "id": "576159",
+          "part_type": "snoozed",
+          "body": null,
+          "created_at": 1742840728,
+          "updated_at": 1742840728,
+          "notified_at": 1742840728,
+          "assigned_to": null,
+          "author": {
+            "id": "6801800",
+            "type": "bot",
+            "name": "Swooshy",
+            "email": "operator+iafshagq@intercom.io"
+          },
+          "attachments": [],
+          "external_id": null,
+          "redacted": false
         }
       ],
-      "total_count": 32
+      "total_count": 34
     }
   },
   {
@@ -10430,6 +10930,7 @@
       "topics": [],
       "total_count": 0
     },
+    "ticket": null,
     "conversation_parts": {
       "type": "conversation_part.list",
       "conversation_parts": [
@@ -10917,6 +11418,7 @@
       "topics": [],
       "total_count": 0
     },
+    "ticket": null,
     "conversation_parts": {
       "type": "conversation_part.list",
       "conversation_parts": [
@@ -11385,6 +11887,7 @@
       "topics": [],
       "total_count": 0
     },
+    "ticket": null,
     "conversation_parts": {
       "type": "conversation_part.list",
       "conversation_parts": [
@@ -11910,6 +12413,7 @@
       "topics": [],
       "total_count": 0
     },
+    "ticket": null,
     "conversation_parts": {
       "type": "conversation_part.list",
       "conversation_parts": [
@@ -12537,6 +13041,75 @@
       "topics": [],
       "total_count": 0
     },
+    "ticket": {
+      "type": "ticket",
+      "id": 57443,
+      "url": "https://app.intercom.com/a/apps/iafshagq/conversations/57443",
+      "custom_attributes": {
+        "_default_title_": {
+          "value": "CardUsage",
+          "type": "string"
+        },
+        "_default_description_": {
+          "value": "\u043d\u0435 \u043c\u043e\u0433\u0443 \u043f\u043e\u043b\u043d\u043e\u0446\u0435\u043d\u043d\u043e \u0434\u043e\u0431\u0430\u0432\u0438\u0442\u044c \u043a\u0430\u0440\u0442\u0443 \u0434\u043b\u044f \u043e\u043f\u043b\u0430\u0442\u044b, \u043a\u043e\u0442\u043e\u0440\u0430\u044f \u0440\u0430\u043d\u0435\u0435 \u0431\u044b\u043b\u0430 \u0434\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u0430",
+          "type": "string"
+        },
+        "last_login_method": {
+          "value": null,
+          "type": "string"
+        },
+        "login_method": {
+          "value": "PHONE",
+          "type": "string"
+        },
+        "wallet_id": {
+          "value": "3143128ad284387ecc24b2W1210519",
+          "type": "string"
+        },
+        "country": {
+          "value": "\u0411\u0435\u043b\u0430\u0440\u0443\u0441\u044c",
+          "type": "string"
+        },
+        "os_version": {
+          "value": "14",
+          "type": "string"
+        },
+        "platform": {
+          "value": "realme, RMX3840",
+          "type": "string"
+        },
+        "app_version_code": {
+          "value": "2.65.0",
+          "type": "string"
+        },
+        "app_version": {
+          "value": "2.65.0",
+          "type": "string"
+        },
+        "account_id": {
+          "value": null,
+          "type": "string"
+        },
+        "logs_link": {
+          "value": "https://client-logs.swoo.app/prod/9f74523b-883e-41b7-af85-5ceb422fab96-full_zip_log_3143128ad284387ecc24b2W1210519_19:03:2025_23:37:227836768568061174078.zip",
+          "type": "string"
+        },
+        "screenshot_links": {
+          "value": null,
+          "type": "string"
+        },
+        "Swoo App screenshots": {
+          "value": null,
+          "type": "files"
+        }
+      },
+      "state": "resolved",
+      "ticket_type": "Customer Complaint",
+      "ticket_type_description": "Customer Complaint",
+      "ticket_type_emoji": "\ud83d\udc1b",
+      "ticket_custom_state_admin_label": "Resolved",
+      "ticket_custom_state_user_label": "Resolved"
+    },
     "conversation_parts": {
       "type": "conversation_part.list",
       "conversation_parts": [
@@ -12881,6 +13454,75 @@
       "topics": [],
       "total_count": 0
     },
+    "ticket": {
+      "type": "ticket",
+      "id": 57843,
+      "url": "https://app.intercom.com/a/apps/iafshagq/conversations/57843",
+      "custom_attributes": {
+        "_default_title_": {
+          "value": "Delete all my data",
+          "type": "string"
+        },
+        "_default_description_": {
+          "value": "Hello, please delete all of my data",
+          "type": "string"
+        },
+        "last_login_method": {
+          "value": null,
+          "type": "string"
+        },
+        "login_method": {
+          "value": null,
+          "type": "string"
+        },
+        "wallet_id": {
+          "value": null,
+          "type": "string"
+        },
+        "country": {
+          "value": null,
+          "type": "string"
+        },
+        "os_version": {
+          "value": null,
+          "type": "string"
+        },
+        "platform": {
+          "value": null,
+          "type": "string"
+        },
+        "app_version_code": {
+          "value": null,
+          "type": "string"
+        },
+        "app_version": {
+          "value": null,
+          "type": "string"
+        },
+        "account_id": {
+          "value": null,
+          "type": "string"
+        },
+        "logs_link": {
+          "value": null,
+          "type": "string"
+        },
+        "screenshot_links": {
+          "value": null,
+          "type": "string"
+        },
+        "Swoo App screenshots": {
+          "value": null,
+          "type": "files"
+        }
+      },
+      "state": "resolved",
+      "ticket_type": "Customer Complaint",
+      "ticket_type_description": "Customer Complaint",
+      "ticket_type_emoji": "\ud83d\udc1b",
+      "ticket_custom_state_admin_label": "Resolved",
+      "ticket_custom_state_user_label": "Resolved"
+    },
     "conversation_parts": {
       "type": "conversation_part.list",
       "conversation_parts": [
@@ -13223,7 +13865,7 @@
           "type": "conversation_part",
           "id": "575905",
           "part_type": "comment",
-          "body": "<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/iafshagq/1327229423/e2874d33b933fc36badbce23a0f8/image.png?expires=1742841900&amp;signature=f813f8a71ae6f164d5a24adb36d5123a865f50aba36bc13d095914bd4549444d&amp;req=dSMlEct8lIVdWvMW1HO4zcd3G2AqJ0Djbibq64Tfem%2FWojHZ8cpMy1nl9xJk%0A0ORLp4ioddY1jXSFsls%3D%0A\"></div><p class=\"no-margin\"><br>\u200b\ufeffDear customer,</p>\n<p class=\"no-margin\"></p>\n<p class=\"no-margin\">We would like to inform you that your account has been successfully deleted according to your request and in accordance with the requirements of the General Data Protection Regulation (GDPR). All your personal data has been deleted from our systems, and access to your account is no longer possible.</p>\n<p class=\"no-margin\"></p>\n<p class=\"no-margin\">If you decide to use our services again in the future, you can always register again. We will be glad to welcome you again.</p>",
+          "body": "<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/iafshagq/1327229423/e2874d33b933fc36badbce23a0f8/image.png?expires=1742848200&amp;signature=2ba62c8b9d1170047e40e6c0354590dc5c9d69e2269c3e555d5fda24bbd05729&amp;req=dSMlEct8lIVdWvMW1HO4zcd3G2AqJ0nobibq64Tfem%2Bt0yINNeRgegtVm4by%0A%2Be0gv4nlAjt6QY2UyyQ%3D%0A\"></div><p class=\"no-margin\"><br>\u200b\ufeffDear customer,</p>\n<p class=\"no-margin\"></p>\n<p class=\"no-margin\">We would like to inform you that your account has been successfully deleted according to your request and in accordance with the requirements of the General Data Protection Regulation (GDPR). All your personal data has been deleted from our systems, and access to your account is no longer possible.</p>\n<p class=\"no-margin\"></p>\n<p class=\"no-margin\">If you decide to use our services again in the future, you can always register again. We will be glad to welcome you again.</p>",
           "created_at": 1742832494,
           "updated_at": 1742832494,
           "notified_at": 1742832494,
@@ -13431,6 +14073,7 @@
       "topics": [],
       "total_count": 0
     },
+    "ticket": null,
     "conversation_parts": {
       "type": "conversation_part.list",
       "conversation_parts": [
@@ -13555,7 +14198,7 @@
           "type": "conversation_part",
           "id": "573458",
           "part_type": "comment",
-          "body": "<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/iafshagq/1436352767/8d5275166cb956a616c865b3c31b/117.jpg?expires=1742841900&amp;signature=470dc03053873d82ae42d59609cc2594fe194c53d57a11cffe76661802fe34d6&amp;req=dSQkEMp7n4ZZXvMW1HO4zT8Aj0U9bgpa9tdcNMAygZ0dgLi2iFflFuzkzkSh%0ASSLM3XfYlCFyKQnuiqs%3D%0A\"></div>",
+          "body": "<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/iafshagq/1436352767/8d5275166cb956a616c865b3c31b/117.jpg?expires=1742848200&amp;signature=6a7097814b8c76baf6ec1c27f6432c8e471da25a6f502d8f7a8e9e010cda5a3e&amp;req=dSQkEMp7n4ZZXvMW1HO4zT8Aj0U9bgNR9tdcNMAygZ10AnmmK9LBdkr0zA0T%0AX9NxAN9lSiz%2B3Gk9FUc%3D%0A\"></div>",
           "created_at": 1742712826,
           "updated_at": 1742712826,
           "notified_at": 1742712826,
@@ -13650,7 +14293,7 @@
           "type": "conversation_part",
           "id": "573463",
           "part_type": "comment",
-          "body": "<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/iafshagq/1436355054/c5af98690c852bb5243115db2bd9/118.jpg?expires=1742841900&amp;signature=dd68c6e6ca28ac9527feb29b8ab6cf65891f7a1ef915d2dc75a28a1dbadbaf04&amp;req=dSQkEMp7mIFaXfMW1HO4zRFIAd49fdVnIw3pDpYN9dweKwd24aI9W5vz73Ye%0ApWze6P%2F0ln3jae4uF%2FU%3D%0A\"></div>",
+          "body": "<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/iafshagq/1436355054/c5af98690c852bb5243115db2bd9/118.jpg?expires=1742848200&amp;signature=3b6d383d169eac849134bfd9d64662c0f5ee78a2daa7fb840e7f84ecd56c7475&amp;req=dSQkEMp7mIFaXfMW1HO4zRFIAd49fdxsIw3pDpYN9dydQP7684F6kZiP%2Fpzi%0Ay5qaTvntizJKSCJcqtM%3D%0A\"></div>",
           "created_at": 1742713073,
           "updated_at": 1742809938,
           "notified_at": 1742713073,
@@ -13866,7 +14509,7 @@
         {
           "type": "upload",
           "name": "1000000761.png",
-          "url": "https://swoo.intercom-attachments-3.com/i/o/iafshagq/1436339895/d70c14a2627f6d2e9322abfef11e/1000000761.png?expires=1742841900&signature=b9878795557bc3a7695e7aed71b1da69b1e835009d1e10c18c970fd901226436&req=dSQkEMp9lIlWXPMW1HO4zUHWoP5%2BGie%2BEpzZqg7qgEeqhqqpyRB1doQ%3D%0A",
+          "url": "https://swoo.intercom-attachments-3.com/i/o/iafshagq/1436339895/d70c14a2627f6d2e9322abfef11e/1000000761.png?expires=1742848200&signature=d8cfe98bd2b89cd3c905c536bf9e398ebedad38b38131a99dc0f47cb1002fc2e&req=dSQkEMp9lIlWXPMW1HO4zUHWoP5%2BGi61EpzZqg7qgEd3ZPCuHZO1ufI%3D%0A",
           "content_type": "image/png",
           "filesize": 197709,
           "width": "1080",
@@ -13946,6 +14589,75 @@
       "type": "topic.list",
       "topics": [],
       "total_count": 0
+    },
+    "ticket": {
+      "type": "ticket",
+      "id": 57839,
+      "url": "https://app.intercom.com/a/apps/iafshagq/conversations/57839",
+      "custom_attributes": {
+        "_default_title_": {
+          "value": "Swoo \u0441\u044a\u0435\u0434\u0430\u0435\u0442 \u0431\u0430\u0442\u0430\u0440\u0435\u044e",
+          "type": "string"
+        },
+        "_default_description_": {
+          "value": "\u0413\u043e\u0441\u043f\u043e\u0434\u0430 \u0438\u0437 \u0441\u0443\u043f\u043f\u043e\u0440\u0442\u0430, \u041f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435 Swoo v2.74.1 \u0441\u0442\u0430\u043b\u043e \u043f\u0440\u043e\u0441\u0442\u043e \u0432\u044b\u0435\u0434\u0430\u0442\u044c \u0431\u0430\u0442\u0430\u0440\u0435\u044e. \u0417\u0430 \u0434\u0435\u043d\u044c, \u0443\u0434\u0435\u043b\u044c\u043d\u044b\u0439 \u0432\u0435\u0441 \u0440\u0430\u0441\u0445\u043e\u0434\u0430 \u0431\u0430\u0442\u0430\u0440\u0435\u0438 \u043d\u0430 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435 Swoo \u0434\u043e\u0445\u043e\u0434\u0438\u0442 \u0434\u043e 60%, \u043f\u0440\u0438 \u044d\u0442\u043e\u043c \u0440\u0430\u0431\u043e\u0442\u0430 \u0432 \u0444\u043e\u043d\u043e\u0432\u043e\u043c \u0440\u0435\u0436\u0438\u043c\u0435 \u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0430. \u0418 \u0432\u043e\u0442 \u0441\u0435\u0439\u0447\u0430\u0441, \u0441 \u0441\u0430\u043c\u043e\u0433\u043e \u0443\u0442\u0440\u0430, \u0437\u0430 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0435 12 \u043c\u0438\u043d\u0443\u0442 \u0440\u0430\u0431\u043e\u0442\u044b \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u0430 \u043e\u0442 \u0431\u0430\u0442\u0430\u0440\u0435\u0438, \u0440\u0430\u0441\u0445\u043e\u0434 \u043e\u0442 Swoo \u0443\u0436\u0435 \u0434\u043e\u0445\u043e\u0434\u0438\u0442 \u0434\u043e 53%, \u0445\u043e\u0442\u044f \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435 \u0432\u043e\u043e\u0431\u0449\u0435 \u0435\u0449\u0451 \u043d\u0435 \u043e\u0442\u043a\u0440\u044b\u0432\u0430\u043b\u043e\u0441\u044c.<br> \u041f\u043e\u0444\u0438\u043a\u0441\u0430\u0439\u0442\u0435 \u044d\u0442\u043e, \u043f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430. \u0413\u0440\u0443\u0441\u0442\u043d\u043e \u0431\u0443\u0434\u0435\u0442 \u0443\u0434\u0430\u043b\u044f\u0442\u044c \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435. \u0421 \u0443\u0432\u0430\u0436\u0435\u043d\u0438\u0435\u043c, \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440 ",
+          "type": "string"
+        },
+        "last_login_method": {
+          "value": null,
+          "type": "string"
+        },
+        "login_method": {
+          "value": null,
+          "type": "string"
+        },
+        "wallet_id": {
+          "value": null,
+          "type": "string"
+        },
+        "country": {
+          "value": null,
+          "type": "string"
+        },
+        "os_version": {
+          "value": null,
+          "type": "string"
+        },
+        "platform": {
+          "value": null,
+          "type": "string"
+        },
+        "app_version_code": {
+          "value": null,
+          "type": "string"
+        },
+        "app_version": {
+          "value": null,
+          "type": "string"
+        },
+        "account_id": {
+          "value": null,
+          "type": "string"
+        },
+        "logs_link": {
+          "value": null,
+          "type": "string"
+        },
+        "screenshot_links": {
+          "value": null,
+          "type": "string"
+        },
+        "Swoo App screenshots": {
+          "value": null,
+          "type": "files"
+        }
+      },
+      "state": "waiting_on_customer",
+      "ticket_type": "Customer Complaint",
+      "ticket_type_description": "Customer Complaint",
+      "ticket_type_emoji": "\ud83d\udc1b",
+      "ticket_custom_state_admin_label": "Waiting on customer",
+      "ticket_custom_state_user_label": "Waiting on you"
     },
     "conversation_parts": {
       "type": "conversation_part.list",
@@ -14187,6 +14899,7 @@
       "topics": [],
       "total_count": 0
     },
+    "ticket": null,
     "conversation_parts": {
       "type": "conversation_part.list",
       "conversation_parts": [
@@ -14733,6 +15446,75 @@
       "topics": [],
       "total_count": 0
     },
+    "ticket": {
+      "type": "ticket",
+      "id": 57826,
+      "url": "https://app.intercom.com/a/apps/iafshagq/conversations/57826",
+      "custom_attributes": {
+        "_default_title_": {
+          "value": null,
+          "type": "string"
+        },
+        "_default_description_": {
+          "value": null,
+          "type": "string"
+        },
+        "last_login_method": {
+          "value": null,
+          "type": "string"
+        },
+        "login_method": {
+          "value": null,
+          "type": "string"
+        },
+        "wallet_id": {
+          "value": null,
+          "type": "string"
+        },
+        "country": {
+          "value": null,
+          "type": "string"
+        },
+        "os_version": {
+          "value": null,
+          "type": "string"
+        },
+        "platform": {
+          "value": null,
+          "type": "string"
+        },
+        "app_version_code": {
+          "value": null,
+          "type": "string"
+        },
+        "app_version": {
+          "value": null,
+          "type": "string"
+        },
+        "account_id": {
+          "value": null,
+          "type": "string"
+        },
+        "logs_link": {
+          "value": null,
+          "type": "string"
+        },
+        "screenshot_links": {
+          "value": null,
+          "type": "string"
+        },
+        "Swoo App screenshots": {
+          "value": null,
+          "type": "files"
+        }
+      },
+      "state": "waiting_on_customer",
+      "ticket_type": "Crypto",
+      "ticket_type_description": "Crypto wallet related issues",
+      "ticket_type_emoji": "\ud83d\udcb0",
+      "ticket_custom_state_admin_label": "Waiting on customer",
+      "ticket_custom_state_user_label": "Waiting on you"
+    },
     "conversation_parts": {
       "type": "conversation_part.list",
       "conversation_parts": [
@@ -14914,7 +15696,7 @@
           "type": "conversation_part",
           "id": "573356",
           "part_type": "comment",
-          "body": "<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/iafshagq/1435952321/c015c8508684d8b8501aeaa72e12/1000001520.jpg?expires=1742841900&amp;signature=5b9388ddbac9f100bd22b2199810b6f506e3f9375f12087edaf5821e8d4a5fed&amp;req=dSQkE8B7n4JdWPMW1HO4zajbRm4R6ga%2BHa8OpNdrGDCyw3bukffV0uWGA8%2BL%0A9OWCp2JzR2M8UY4k3ek%3D%0A\"></div>",
+          "body": "<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/iafshagq/1435952321/c015c8508684d8b8501aeaa72e12/1000001520.jpg?expires=1742848200&amp;signature=667bca13a298cb576b903d5cece29adfa4cc8e8ba7f78e5942126ae44f7312ab&amp;req=dSQkE8B7n4JdWPMW1HO4zajbRm4R6g%2B1Ha8OpNdrGDCmWAd9xwY6EMMTcNg5%0AuA7C%2FToA10ABUXKCck8%3D%0A\"></div>",
           "created_at": 1742674761,
           "updated_at": 1742674766,
           "notified_at": 1742674761,
@@ -15047,7 +15829,7 @@
           "type": "conversation_part",
           "id": "573363",
           "part_type": "comment",
-          "body": "<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/iafshagq/1435964894/38a9d64c18b31285f3bbefa02b72/1000001522.jpg?expires=1742841900&amp;signature=9e9842d2d3847b8513ab9c8f02fbbdcf0b819af1e83c6d5f844393d2c91cf4cc&amp;req=dSQkE8B4mYlWXfMW1HO4zTYsTKyC7o5fV1%2BLDyRjwM0sKFEq%2BAoxq9nZu8JK%0AKZONcQ5LZ5674IiIOMA%3D%0A\"></div>",
+          "body": "<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/iafshagq/1435964894/38a9d64c18b31285f3bbefa02b72/1000001522.jpg?expires=1742848200&amp;signature=6459d07c60d4b4296a01354c01e8c6dd71818f4fc8832bfccbf17673d28f6a14&amp;req=dSQkE8B4mYlWXfMW1HO4zTYsTKyC7odUV1%2BLDyRjwM3JLSsrgbOlp2yIvor1%0ARxo4%2F0Krh45%2F3dgxMW8%3D%0A\"></div>",
           "created_at": 1742675951,
           "updated_at": 1742810848,
           "notified_at": 1742675951,
@@ -15399,6 +16181,75 @@
       "topics": [],
       "total_count": 0
     },
+    "ticket": {
+      "type": "ticket",
+      "id": 57421,
+      "url": "https://app.intercom.com/a/apps/iafshagq/conversations/57421",
+      "custom_attributes": {
+        "_default_title_": {
+          "value": "Other",
+          "type": "string"
+        },
+        "_default_description_": {
+          "value": "\u0432 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u0435 \u0432\u0440\u0435\u043c\u044f \u043d\u0430\u0431\u043b\u044e\u0434\u0430\u044e \u0447\u0430\u0441\u0442\u044b\u0435 \u0432\u044b\u043b\u0435\u0442\u044b \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u044f, \u043c\u043e\u0436\u043d\u043e \u043a\u0430\u043a-\u0442\u043e \u0438\u0441\u043f\u0440\u0430\u0432\u0438\u0442\u044c?",
+          "type": "string"
+        },
+        "last_login_method": {
+          "value": null,
+          "type": "string"
+        },
+        "login_method": {
+          "value": "PHONE",
+          "type": "string"
+        },
+        "wallet_id": {
+          "value": "96f4587bcbf2e27c3269e3eW719974",
+          "type": "string"
+        },
+        "country": {
+          "value": "\u0411\u0435\u043b\u0430\u0440\u0443\u0441\u044c",
+          "type": "string"
+        },
+        "os_version": {
+          "value": "12",
+          "type": "string"
+        },
+        "platform": {
+          "value": "HUAWEI, LNA-LX9",
+          "type": "string"
+        },
+        "app_version_code": {
+          "value": "2.74.2",
+          "type": "string"
+        },
+        "app_version": {
+          "value": "2.74.2",
+          "type": "string"
+        },
+        "account_id": {
+          "value": "100cf4df-ef5c-4be3-8621-52670e5700d4",
+          "type": "string"
+        },
+        "logs_link": {
+          "value": "https://client-logs.swoo.app/prod/99f7444b-19fd-4be9-86b8-64a3d2236113-full_zip_log_96f4587bcbf2e27c3269e3eW719974_19:03:2025_19:55:582856701724662781684.zip",
+          "type": "string"
+        },
+        "screenshot_links": {
+          "value": null,
+          "type": "string"
+        },
+        "Swoo App screenshots": {
+          "value": null,
+          "type": "files"
+        }
+      },
+      "state": "in_progress",
+      "ticket_type": "Customer Complaint",
+      "ticket_type_description": "Customer Complaint",
+      "ticket_type_emoji": "\ud83d\udc1b",
+      "ticket_custom_state_admin_label": "In progress",
+      "ticket_custom_state_user_label": "In progress"
+    },
     "conversation_parts": {
       "type": "conversation_part.list",
       "conversation_parts": [
@@ -15538,7 +16389,7 @@
             {
               "type": "upload",
               "name": "SVID_20250322_222716_1.mp4",
-              "url": "https://swoo.intercom-attachments-5.com/i/o/iafshagq/1435923732/63aa750e6bcd032db5c414b30194/SVID_20250322_222716_1.mp4?expires=1742841900&signature=1758a70e89b65562708ddb1fd982e682f72d55e045322fd9282eebbde189be15&req=dSQkE8B8noZcW%2FMW1HO4zRMKC7ZTe%2B82ao8YhgBJJgQDOvnL0l6Ts6k%3D%0A",
+              "url": "https://swoo.intercom-attachments-5.com/i/o/iafshagq/1435923732/63aa750e6bcd032db5c414b30194/SVID_20250322_222716_1.mp4?expires=1742848200&signature=c3c0fdd5dce53b7c1d14a99e1aae0f0a48c4de7b80b5aa577ab15a4df6d009f8&req=dSQkE8B8noZcW%2FMW1HO4zRMKC7ZTe%2BY9ao8YhgBJJgR0pfwylzUxLa0%3D%0A",
               "content_type": "video/mp4",
               "filesize": 2327904,
               "width": null,
@@ -15820,6 +16671,7 @@
       "topics": [],
       "total_count": 0
     },
+    "ticket": null,
     "conversation_parts": {
       "type": "conversation_part.list",
       "conversation_parts": [
@@ -16619,6 +17471,7 @@
       "topics": [],
       "total_count": 0
     },
+    "ticket": null,
     "conversation_parts": {
       "type": "conversation_part.list",
       "conversation_parts": [
@@ -17057,6 +17910,7 @@
       "topics": [],
       "total_count": 0
     },
+    "ticket": null,
     "conversation_parts": {
       "type": "conversation_part.list",
       "conversation_parts": [
@@ -17770,7 +18624,7 @@
           "type": "conversation_part",
           "id": "574582",
           "part_type": "assignment",
-          "body": "<p class=\"no-margin\">\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435!</p>\n<p class=\"no-margin\"></p>\n<p class=\"no-margin\">\u0415\u0441\u043b\u0438 \u0445\u043e\u0442\u0438\u0442\u0435 \u0432\u044b\u0431\u0440\u0430\u0442\u044c \u0434\u0440\u0443\u0433\u0443\u044e \u043a\u0430\u0440\u0442\u0443, \u0441\u043b\u0435\u0434\u0443\u0439\u0442\u0435 \u0438\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438:</p>\n<p class=\"no-margin\"></p>\n<p class=\"no-margin\">1. \u041f\u0435\u0440\u0435\u0439\u0434\u0438\u0442\u0435 \u0432 \u0440\u0430\u0437\u0434\u0435\u043b<b> \u0413\u043b\u0430\u0432\u043d\u0430\u044f</b> \u043d\u0430 \u043d\u0438\u0436\u043d\u0435\u0439 \u043f\u0430\u043d\u0435\u043b\u0438 \u043d\u0430\u0432\u0438\u0433\u0430\u0446\u0438\u0438.</p>\n<p class=\"no-margin\"></p>\n<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/iafshagq/1437381499/52b2edc12f9982da2a766a3ac097/VUiS-4mWfuwtxWraUQB485inbf-ciQrwrA.png-1677582273?expires=1742841900&amp;signature=72d4d803889964411566a8f0d30d964d02d7ca64a15ca0ba7c0687054901158e&amp;req=dSQkEcp2nIVWUPMW1HO4zUrfaUc6Vu7kEJ7aMq6VuwvbPHwqE2tBWnvjGI1E%0A3C62Jvr%2BVIyayua2rJE%3D%0A\"></div><p class=\"no-margin\">2. \u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u043a\u0430\u0440\u0442\u0443, \u043a\u043e\u0442\u043e\u0440\u0443\u044e \u0445\u043e\u0442\u0438\u0442\u0435 \u0441\u0434\u0435\u043b\u0430\u0442\u044c \u043a\u0430\u0440\u0442\u043e\u0439 \u043f\u043e \u0443\u043c\u043e\u043b\u0447\u0430\u043d\u0438\u044e, \u0438 \u043d\u0430\u0436\u043c\u0438\u0442\u0435 \u043d\u0430 \u043d\u0435\u0451, \u0447\u0442\u043e\u0431\u044b \u043e\u0442\u043a\u0440\u044b\u0442\u044c \u0434\u0430\u043d\u043d\u044b\u0435.</p>\n<p class=\"no-margin\"></p>\n<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/iafshagq/1437381503/4b13def9d9d6f8595d98054c03b0/EkH9TrZxxItZkLT9hXRf3crt1d_FlD07Aw.png-1677582295?expires=1742841900&amp;signature=b70767cd7099903035798dfdbd9bd394afb6595401ad1783d0e9c25501df6848&amp;req=dSQkEcp2nIRfWvMW1HO4zQZUsjG3OJrwjXvT5TdIt96v5cpx8OhYs%2BvzYHFp%0AZHHG8fW53dMUJLJbDcg%3D%0A\"></div><p class=\"no-margin\">3. \u041f\u0440\u043e\u0432\u0435\u0440\u044c\u0442\u0435 \u0441\u0442\u0430\u0442\u0443\u0441 \u043a\u0430\u0440\u0442\u044b \u0432 \u0441\u0442\u0440\u043e\u043a\u0435 <b>\u041e\u043f\u043b\u0430\u0442\u0430 \u043a\u0430\u0441\u0430\u043d\u0438\u0435\u043c</b> \u0438 \u043d\u0430\u0436\u043c\u0438\u0442\u0435 <b>\u0423\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u044c \u043e\u0441\u043d\u043e\u0432\u043d\u043e\u0439</b>, \u0447\u0442\u043e\u0431\u044b \u043f\u043b\u0430\u0442\u0438\u0442\u044c \u043a\u0430\u0440\u0442\u043e\u0439 \u043f\u043e \u0443\u043c\u043e\u043b\u0447\u0430\u043d\u0438\u044e.</p>\n<p class=\"no-margin\"></p>\n<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/iafshagq/1437381502/b3151d3a36391bc3d6ae81d2c1cb/LY6T0KdGbzKLGNMF6idWPQboVUJgoX1yww.png-1677582735?expires=1742841900&amp;signature=334d74b9bd860f9bfaf5001dc4e5c8e91f20f56cecdf97e262e0a5a92b291883&amp;req=dSQkEcp2nIRfW%2FMW1HO4zTebXXI44ub6XgB%2FymGb5mOujVH%2FjWLgbLn8siLn%0AHlWPFvLrT0xBVAChBag%3D%0A\"></div><p class=\"no-margin\">\u0413\u043e\u0442\u043e\u0432\u043e! \u042d\u0442\u0430 \u043d\u043e\u0432\u0430\u044f \u043a\u0430\u0440\u0442\u0430 \u043f\u043e \u0443\u043c\u043e\u043b\u0447\u0430\u043d\u0438\u044e \u0431\u0443\u0434\u0435\u0442 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c\u0441\u044f \u0434\u043b\u044f \u043f\u043b\u0430\u0442\u0435\u0436\u0435\u0439 \u0431\u0435\u0437 \u043d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e\u0441\u0442\u0438 \u043e\u0442\u043a\u0440\u044b\u0432\u0430\u0442\u044c \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435.</p>",
+          "body": "<p class=\"no-margin\">\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435!</p>\n<p class=\"no-margin\"></p>\n<p class=\"no-margin\">\u0415\u0441\u043b\u0438 \u0445\u043e\u0442\u0438\u0442\u0435 \u0432\u044b\u0431\u0440\u0430\u0442\u044c \u0434\u0440\u0443\u0433\u0443\u044e \u043a\u0430\u0440\u0442\u0443, \u0441\u043b\u0435\u0434\u0443\u0439\u0442\u0435 \u0438\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438:</p>\n<p class=\"no-margin\"></p>\n<p class=\"no-margin\">1. \u041f\u0435\u0440\u0435\u0439\u0434\u0438\u0442\u0435 \u0432 \u0440\u0430\u0437\u0434\u0435\u043b<b> \u0413\u043b\u0430\u0432\u043d\u0430\u044f</b> \u043d\u0430 \u043d\u0438\u0436\u043d\u0435\u0439 \u043f\u0430\u043d\u0435\u043b\u0438 \u043d\u0430\u0432\u0438\u0433\u0430\u0446\u0438\u0438.</p>\n<p class=\"no-margin\"></p>\n<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/iafshagq/1437381499/52b2edc12f9982da2a766a3ac097/VUiS-4mWfuwtxWraUQB485inbf-ciQrwrA.png-1677582273?expires=1742848200&amp;signature=e31503a5f25a962017140d74ec22e1a5ef738b401111da1f7e21b0d1b8c8f2d6&amp;req=dSQkEcp2nIVWUPMW1HO4zUrfaUc6VufvEJ7aMq6VuwsZ2xcGWPrZtR0onVA%2B%0AMz38apsETVdl7aYB6xY%3D%0A\"></div><p class=\"no-margin\">2. \u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u043a\u0430\u0440\u0442\u0443, \u043a\u043e\u0442\u043e\u0440\u0443\u044e \u0445\u043e\u0442\u0438\u0442\u0435 \u0441\u0434\u0435\u043b\u0430\u0442\u044c \u043a\u0430\u0440\u0442\u043e\u0439 \u043f\u043e \u0443\u043c\u043e\u043b\u0447\u0430\u043d\u0438\u044e, \u0438 \u043d\u0430\u0436\u043c\u0438\u0442\u0435 \u043d\u0430 \u043d\u0435\u0451, \u0447\u0442\u043e\u0431\u044b \u043e\u0442\u043a\u0440\u044b\u0442\u044c \u0434\u0430\u043d\u043d\u044b\u0435.</p>\n<p class=\"no-margin\"></p>\n<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/iafshagq/1437381503/4b13def9d9d6f8595d98054c03b0/EkH9TrZxxItZkLT9hXRf3crt1d_FlD07Aw.png-1677582295?expires=1742848200&amp;signature=94090b470146e1721be6a398bd90c42d2f83358d468761804a1313fb02367807&amp;req=dSQkEcp2nIRfWvMW1HO4zQZUsjG3OJP7jXvT5TdIt96P6un8nbiEplUzjQZ8%0AsgQddAI1QmfUBte2nnM%3D%0A\"></div><p class=\"no-margin\">3. \u041f\u0440\u043e\u0432\u0435\u0440\u044c\u0442\u0435 \u0441\u0442\u0430\u0442\u0443\u0441 \u043a\u0430\u0440\u0442\u044b \u0432 \u0441\u0442\u0440\u043e\u043a\u0435 <b>\u041e\u043f\u043b\u0430\u0442\u0430 \u043a\u0430\u0441\u0430\u043d\u0438\u0435\u043c</b> \u0438 \u043d\u0430\u0436\u043c\u0438\u0442\u0435 <b>\u0423\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u044c \u043e\u0441\u043d\u043e\u0432\u043d\u043e\u0439</b>, \u0447\u0442\u043e\u0431\u044b \u043f\u043b\u0430\u0442\u0438\u0442\u044c \u043a\u0430\u0440\u0442\u043e\u0439 \u043f\u043e \u0443\u043c\u043e\u043b\u0447\u0430\u043d\u0438\u044e.</p>\n<p class=\"no-margin\"></p>\n<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/iafshagq/1437381502/b3151d3a36391bc3d6ae81d2c1cb/LY6T0KdGbzKLGNMF6idWPQboVUJgoX1yww.png-1677582735?expires=1742848200&amp;signature=53451da19c8e050edbdb856eee4452265fd2ed63dceac87cf429f44ee495a262&amp;req=dSQkEcp2nIRfW%2FMW1HO4zTebXXI44u%2FxXgB%2FymGb5mMAliXCrknMayjKnsB%2B%0A7n15pir%2BGSt1so15r5U%3D%0A\"></div><p class=\"no-margin\">\u0413\u043e\u0442\u043e\u0432\u043e! \u042d\u0442\u0430 \u043d\u043e\u0432\u0430\u044f \u043a\u0430\u0440\u0442\u0430 \u043f\u043e \u0443\u043c\u043e\u043b\u0447\u0430\u043d\u0438\u044e \u0431\u0443\u0434\u0435\u0442 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c\u0441\u044f \u0434\u043b\u044f \u043f\u043b\u0430\u0442\u0435\u0436\u0435\u0439 \u0431\u0435\u0437 \u043d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e\u0441\u0442\u0438 \u043e\u0442\u043a\u0440\u044b\u0432\u0430\u0442\u044c \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435.</p>",
           "created_at": 1742790376,
           "updated_at": 1742790376,
           "notified_at": 1742790376,
@@ -18166,6 +19020,7 @@
       "topics": [],
       "total_count": 0
     },
+    "ticket": null,
     "conversation_parts": {
       "type": "conversation_part.list",
       "conversation_parts": [
@@ -18278,9 +19133,9 @@
     "type": "conversation",
     "id": "57793",
     "created_at": 1742640711,
-    "updated_at": 1742831172,
+    "updated_at": 1742842025,
     "waiting_since": null,
-    "snoozed_until": 1742841972,
+    "snoozed_until": null,
     "source": {
       "type": "conversation",
       "id": "2767859922",
@@ -18313,12 +19168,23 @@
     },
     "admin_assignee_id": 7097232,
     "team_assignee_id": 6801802,
-    "open": true,
-    "state": "snoozed",
+    "open": false,
+    "state": "closed",
     "read": false,
     "tags": {
       "type": "tag.list",
-      "tags": []
+      "tags": [
+        {
+          "type": "tag",
+          "id": "10392822",
+          "name": "Autoclosed",
+          "applied_at": 1742842023,
+          "applied_by": {
+            "type": "admin",
+            "id": "6801800"
+          }
+        }
+      ]
     },
     "priority": "not_priority",
     "sla_applied": null,
@@ -18326,24 +19192,36 @@
       "type": "conversation_statistics",
       "time_to_assignment": null,
       "time_to_admin_reply": null,
-      "time_to_first_close": null,
-      "time_to_last_close": null,
+      "time_to_first_close": 32400,
+      "time_to_last_close": 32400,
       "median_time_to_reply": 8103,
       "first_contact_reply_at": 1742640711,
       "first_assignment_at": 1742640713,
       "first_admin_reply_at": 1742790817,
-      "first_close_at": null,
+      "first_close_at": 1742842025,
       "last_assignment_at": 1742790817,
       "last_assignment_admin_reply_at": 1742790817,
       "last_contact_reply_at": 1742812267,
       "last_admin_reply_at": 1742820370,
-      "last_close_at": null,
-      "last_closed_by_id": null,
+      "last_close_at": 1742842025,
+      "last_closed_by_id": 6801800,
       "count_reopens": 0,
       "count_assignments": 2,
-      "count_conversation_parts": 18
+      "count_conversation_parts": 24
     },
-    "conversation_rating": null,
+    "conversation_rating": {
+      "rating": null,
+      "remark": null,
+      "created_at": 1742842025,
+      "contact": {
+        "type": "user",
+        "id": "67de282822a6bc476b644800"
+      },
+      "teammate": {
+        "type": "admin",
+        "id": "7097232"
+      }
+    },
     "teammates": {
       "type": "admin.list",
       "admins": [
@@ -18364,6 +19242,7 @@
       "topics": [],
       "total_count": 0
     },
+    "ticket": null,
     "conversation_parts": {
       "type": "conversation_part.list",
       "conversation_parts": [
@@ -18607,7 +19486,7 @@
           "part_type": "comment",
           "body": "<p>292406952</p>",
           "created_at": 1742812267,
-          "updated_at": 1742812267,
+          "updated_at": 1742842023,
           "notified_at": 1742812267,
           "assigned_to": null,
           "author": {
@@ -18695,9 +19574,123 @@
           "attachments": [],
           "external_id": null,
           "redacted": false
+        },
+        {
+          "type": "conversation_part",
+          "id": "576175",
+          "part_type": "timer_unsnooze",
+          "body": null,
+          "created_at": 1742842020,
+          "updated_at": 1742842020,
+          "notified_at": 1742842020,
+          "assigned_to": null,
+          "author": {
+            "id": "6801800",
+            "type": "bot",
+            "name": "Swooshy",
+            "email": "operator+iafshagq@intercom.io"
+          },
+          "attachments": [],
+          "external_id": null,
+          "redacted": false
+        },
+        {
+          "type": "conversation_part",
+          "id": "576176",
+          "part_type": "comment",
+          "body": "<p>\u041f\u043e\u0441\u043a\u043e\u043b\u044c\u043a\u0443 \u043c\u044b \u043d\u0435 \u043f\u043e\u043b\u0443\u0447\u0438\u043b\u0438 \u043e\u0442 \u0432\u0430\u0441 \u043e\u0442\u0432\u0435\u0442\u0430, \u043c\u044b \u0437\u0430\u043a\u0440\u044b\u0432\u0430\u0435\u043c \u0447\u0430\u0442. \u0415\u0441\u043b\u0438 \u0443 \u0432\u0430\u0441 \u0432\u043e\u0437\u043d\u0438\u043a\u043d\u0443\u0442 \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0435 \u0432\u043e\u043f\u0440\u043e\u0441\u044b, \u043d\u0435 \u0441\u0442\u0435\u0441\u043d\u044f\u0439\u0442\u0435\u0441\u044c \u0441\u0432\u044f\u0437\u0430\u0442\u044c\u0441\u044f \u0441 \u043d\u0430\u043c\u0438 \u0441\u043d\u043e\u0432\u0430. </p>\n<p>\u0425\u043e\u0440\u043e\u0448\u0435\u0433\u043e \u0434\u043d\u044f!</p>",
+          "created_at": 1742842023,
+          "updated_at": 1742842023,
+          "notified_at": 1742842023,
+          "assigned_to": null,
+          "author": {
+            "id": "6801800",
+            "type": "bot",
+            "name": "Swooshy",
+            "email": "operator+iafshagq@intercom.io"
+          },
+          "attachments": [],
+          "external_id": null,
+          "redacted": false
+        },
+        {
+          "type": "conversation_part",
+          "id": "576178",
+          "part_type": "conversation_tags_updated",
+          "body": null,
+          "created_at": 1742842024,
+          "updated_at": 1742842024,
+          "notified_at": 1742842024,
+          "assigned_to": null,
+          "author": {
+            "id": "6801800",
+            "type": "bot",
+            "name": "Swooshy",
+            "email": "operator+iafshagq@intercom.io"
+          },
+          "attachments": [],
+          "external_id": null,
+          "redacted": false
+        },
+        {
+          "type": "conversation_part",
+          "id": "576179",
+          "part_type": "operator_workflow_event",
+          "body": null,
+          "created_at": 1742842024,
+          "updated_at": 1742842024,
+          "notified_at": 1742842024,
+          "assigned_to": null,
+          "author": {
+            "id": "6801800",
+            "type": "bot",
+            "name": "Swooshy",
+            "email": "operator+iafshagq@intercom.io"
+          },
+          "attachments": [],
+          "external_id": null,
+          "redacted": false
+        },
+        {
+          "type": "conversation_part",
+          "id": "576181",
+          "part_type": "close",
+          "body": null,
+          "created_at": 1742842025,
+          "updated_at": 1742842025,
+          "notified_at": 1742842025,
+          "assigned_to": null,
+          "author": {
+            "id": "6801800",
+            "type": "bot",
+            "name": "Swooshy",
+            "email": "operator+iafshagq@intercom.io"
+          },
+          "attachments": [],
+          "external_id": null,
+          "redacted": false
+        },
+        {
+          "type": "conversation_part",
+          "id": "576183",
+          "part_type": "comment",
+          "body": "<p>[Conversation Rating Request]</p>",
+          "created_at": 1742842025,
+          "updated_at": 1742842025,
+          "notified_at": 1742842025,
+          "assigned_to": null,
+          "author": {
+            "id": "6801800",
+            "type": "bot",
+            "name": "Swooshy",
+            "email": "operator+iafshagq@intercom.io"
+          },
+          "attachments": [],
+          "external_id": null,
+          "redacted": false
         }
       ],
-      "total_count": 17
+      "total_count": 23
     }
   },
   {
@@ -18813,6 +19806,7 @@
       "topics": [],
       "total_count": 0
     },
+    "ticket": null,
     "conversation_parts": {
       "type": "conversation_part.list",
       "conversation_parts": [
@@ -19172,7 +20166,7 @@
         {
           "type": "upload",
           "name": "Screenshot_20250322-123441.png",
-          "url": "https://swoo.intercom-attachments-5.com/i/o/iafshagq/1435328365/329494b8a3febf2bf1ec934ba3a5/Screenshot_20250322-123441.png?expires=1742841900&signature=0e5dbecd5b1dff646b46af1a51443b8e71d47b7e7bb56a4b470265718be0006a&req=dSQkE8p8lYJZXPMW1HO4zVEPX9sUDkrjTCYoV6lO0TSgiRYhkKZlFwk%3D%0A",
+          "url": "https://swoo.intercom-attachments-5.com/i/o/iafshagq/1435328365/329494b8a3febf2bf1ec934ba3a5/Screenshot_20250322-123441.png?expires=1742848200&signature=37a7f642308f498908a079f3bd75e2932542b4ce86ba5470ee387a3aa211c35b&req=dSQkE8p8lYJZXPMW1HO4zVEPX9sUDkPoTCYoV6lO0TTORL5pJG5dTBg%3D%0A",
           "content_type": "image/png",
           "filesize": 137787,
           "width": "1080",
@@ -19181,7 +20175,7 @@
         {
           "type": "upload",
           "name": "Screenshot_20250322-123500.png",
-          "url": "https://swoo.intercom-attachments-5.com/i/o/iafshagq/1435328367/b6673325e9faa2fb49016e70b6b5/Screenshot_20250322-123500.png?expires=1742841900&signature=7035e0d79066dd371ec6b53f32628b052ef3804385561648be268ad3fb927c72&req=dSQkE8p8lYJZXvMW1HO4zWXaXWzIryTWxP1iYuj6gBgDhbYSR5RPxoE%3D%0A",
+          "url": "https://swoo.intercom-attachments-5.com/i/o/iafshagq/1435328367/b6673325e9faa2fb49016e70b6b5/Screenshot_20250322-123500.png?expires=1742848200&signature=6559f87238d5fca077cb67c9a0982027a83967553804a22f075dae3d45b0cb6a&req=dSQkE8p8lYJZXvMW1HO4zWXaXWzIry3dxP1iYuj6gBihRDHZQPtz490%3D%0A",
           "content_type": "image/png",
           "filesize": 147217,
           "width": "1080",
@@ -19261,6 +20255,75 @@
       "type": "topic.list",
       "topics": [],
       "total_count": 0
+    },
+    "ticket": {
+      "type": "ticket",
+      "id": 57781,
+      "url": "https://app.intercom.com/a/apps/iafshagq/conversations/57781",
+      "custom_attributes": {
+        "_default_title_": {
+          "value": "App started to use a lot of battery",
+          "type": "string"
+        },
+        "_default_description_": {
+          "value": "Hi. I have noticed that app started to use a lot of battery even if I do not use it. Please see screenshots. Can you please fix this issue? Thank you. Best regards,<br>Anton Soroko",
+          "type": "string"
+        },
+        "last_login_method": {
+          "value": null,
+          "type": "string"
+        },
+        "login_method": {
+          "value": null,
+          "type": "string"
+        },
+        "wallet_id": {
+          "value": null,
+          "type": "string"
+        },
+        "country": {
+          "value": null,
+          "type": "string"
+        },
+        "os_version": {
+          "value": null,
+          "type": "string"
+        },
+        "platform": {
+          "value": null,
+          "type": "string"
+        },
+        "app_version_code": {
+          "value": null,
+          "type": "string"
+        },
+        "app_version": {
+          "value": null,
+          "type": "string"
+        },
+        "account_id": {
+          "value": null,
+          "type": "string"
+        },
+        "logs_link": {
+          "value": null,
+          "type": "string"
+        },
+        "screenshot_links": {
+          "value": null,
+          "type": "string"
+        },
+        "Swoo App screenshots": {
+          "value": null,
+          "type": "files"
+        }
+      },
+      "state": "in_progress",
+      "ticket_type": "Customer Complaint",
+      "ticket_type_description": "Customer Complaint",
+      "ticket_type_emoji": "\ud83d\udc1b",
+      "ticket_custom_state_admin_label": "In progress",
+      "ticket_custom_state_user_label": "In progress"
     },
     "conversation_parts": {
       "type": "conversation_part.list",

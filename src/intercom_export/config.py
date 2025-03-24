@@ -1,108 +1,99 @@
-"""
-Configuration management for Intercom Export.
-Handles loading settings from environment variables, config files, and CLI arguments.
-"""
-
 import os
-from dataclasses import dataclass
-from typing import Optional, Dict, Any
 import yaml
 
-@dataclass
-class IntercomConfig:
-    """Intercom API configuration."""
-    api_token: str
-    base_url: str = "https://api.intercom.io"
-    api_version: str = "2.8"
-
-@dataclass
-class ExportConfig:
-    """Export configuration."""
-    output_format: str = "markdown"  # markdown, json, csv
-    output_dir: str = "exports"
-    batch_size: int = 15
-    include_metadata: bool = True
-    include_context: bool = True
-
-@dataclass
-class Config:
-    """Main configuration class."""
-    intercom: IntercomConfig
-    export: ExportConfig
-    debug: bool = False
-
-def load_from_env() -> Dict[str, Any]:
-    """Load configuration from environment variables."""
-    return {
-        "intercom": {
-            "api_token": os.getenv("INTERCOM_API_TOKEN"),
-            "base_url": os.getenv("INTERCOM_BASE_URL", "https://api.intercom.io"),
-            "api_version": os.getenv("INTERCOM_API_VERSION", "2.8"),
-        },
-        "export": {
-            "output_format": os.getenv("EXPORT_FORMAT", "markdown"),
-            "output_dir": os.getenv("EXPORT_DIR", "exports"),
-            "batch_size": int(os.getenv("BATCH_SIZE", "15")),
-            "include_metadata": os.getenv("INCLUDE_METADATA", "true").lower() == "true",
-            "include_context": os.getenv("INCLUDE_CONTEXT", "true").lower() == "true",
-        },
-        "debug": os.getenv("DEBUG", "false").lower() == "true",
-    }
-
-def load_from_file(config_path: str) -> Dict[str, Any]:
-    """Load configuration from YAML file."""
-    if not os.path.exists(config_path):
+def load_file_config():
+    """
+    Load configuration values from the config.yaml file.
+    If the file is missing or cannot be parsed, returns an empty dictionary.
+    """
+    try:
+        with open("config.yaml", "r") as f:
+            return yaml.safe_load(f) or {}
+    except Exception as e:
         return {}
-    
-    with open(config_path, 'r') as f:
-        return yaml.safe_load(f)
 
-def create_config(
-    config_file: Optional[str] = None,
-    env_vars: bool = True,
-    **overrides
-) -> Config:
+def load_config():
     """
-    Create configuration object from multiple sources.
-    Priority (highest to lowest): overrides > environment variables > config file
+    Load configuration by first reading values from config.yaml and then
+    overriding them with any corresponding environment variables that are set.
+    This ensures that file-based values are preserved unless explicitly replaced by an environment variable.
     """
-    # Start with empty config
-    config_data = {}
-    
-    # Load from config file if provided
-    if config_file:
-        config_data.update(load_from_file(config_file))
-    
-    # Load from environment variables
-    if env_vars:
-        env_config = load_from_env()
-        for key, value in env_config.items():
-            if isinstance(value, dict):
-                config_data.setdefault(key, {}).update(
-                    {k: v for k, v in value.items() if v is not None}
-                )
-            elif value is not None:
-                config_data[key] = value
-    
-    # Apply overrides
-    for key, value in overrides.items():
-        if isinstance(value, dict):
-            config_data.setdefault(key, {}).update(value)
+    file_config = load_file_config()
+    config = {}
+    for key, value in file_config.items():
+        env_val = os.environ.get(key)
+        config[key] = env_val if env_val is not None else value
+    return config
+
+class IntercomConfig:
+    """
+    Configuration class for Intercom settings.
+    Can be initialized with a dictionary or using keyword arguments.
+    """
+    def __init__(self, *args, **kwargs):
+        if args:
+            self.config = args[0]
         else:
-            config_data[key] = value
+            self.config = kwargs
+
+    def __getitem__(self, key):
+        return self.config.get(key)
+
+    def __getattr__(self, name):
+        return self.config.get(name)
+
+class ExportConfig:
+    """
+    Configuration class for export-related settings.
+    Can be initialized with a dictionary or using keyword arguments.
+    """
+    def __init__(self, *args, **kwargs):
+        if args:
+            self.config = args[0]
+        else:
+            self.config = kwargs
+
+    def __getitem__(self, key):
+        return self.config.get(key)
+
+    def __getattr__(self, name):
+        return self.config.get(name)
+
+def create_config(config_file=None, env_vars=False, **overrides):
+    """
+    Create and return a tuple of configuration objects:
+    (IntercomConfig, ExportConfig)
     
-    # Create config objects
-    intercom_data = config_data.get('intercom', {})
-    if not intercom_data.get('api_token'):
-        intercom_data['api_token'] = 'default-token'
-    if 'api_version' not in intercom_data:
-        intercom_data['api_version'] = '2.9'
-    intercom_config = IntercomConfig(**intercom_data)
-    export_config = ExportConfig(**config_data.get('export', {}))
-    debug = config_data.get('debug', False)
+    Parameters:
+      config_file: Optional file path to load configuration from instead of "config.yaml".
+      env_vars: If True, override file configuration with environment variables.
+      overrides: Additional key-value overrides.
+    """
+    if config_file:
+        try:
+            with open(config_file, "r") as f:
+                file_config = yaml.safe_load(f) or {}
+        except Exception:
+            file_config = {}
+    else:
+        file_config = load_file_config()
     
-    return Config(
-        intercom=intercom_config,
-        export=export_config,
-        debug=debug
-    )
+    config = dict(file_config)
+    
+    if env_vars:
+        for key, value in os.environ.items():
+            config[key] = value
+
+    # Apply additional overrides
+    for key, value in overrides.items():
+        if isinstance(value, dict) and key in config and isinstance(config[key], dict):
+            config[key].update(value)
+        else:
+            config[key] = value
+
+    return IntercomConfig(config), ExportConfig(config)
+
+# Legacy access to raw config dict if needed
+CONFIG = load_config()
+# Provide a Config alias for legacy purposes expected by tests
+Config = CONFIG
