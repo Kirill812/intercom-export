@@ -3,7 +3,8 @@ Intercom API client for fetching conversations and related data.
 """
 
 import logging
-from typing import List, Dict, Any, Optional
+import time
+from typing import List, Dict, Any, Optional, Callable
 try:
     import requests
 except ModuleNotFoundError:
@@ -22,7 +23,9 @@ class IntercomAPIError(Exception):
 
 class RateLimitError(IntercomAPIError):
     """Raised when API rate limit is exceeded."""
-    pass
+    def __init__(self, message: str, response: Optional[requests.Response] = None, retry_after: Optional[int] = None):
+        super().__init__(message, response)
+        self.retry_after = retry_after
 
 class AuthenticationError(IntercomAPIError):
     """Raised when API authentication fails."""
@@ -31,20 +34,53 @@ class AuthenticationError(IntercomAPIError):
 class IntercomClient:
     """Client for interacting with the Intercom API."""
     
-    def __init__(self, config: IntercomConfig):
+    def __init__(self, config):
         """Initialize the client with configuration."""
+        if isinstance(config, (tuple, list)):
+            config = config[0]
+        if isinstance(config, dict):
+            from ..config import IntercomConfig
+            config = IntercomConfig(config)
+        # If a nested 'intercom' configuration exists, use it.
+        if getattr(config, 'intercom', None) is not None:
+            intercom_config = config.intercom
+            if isinstance(intercom_config, dict):
+                from ..config import IntercomConfig
+                config = IntercomConfig(intercom_config)
+            else:
+                config = intercom_config
         self.config = config
+        # Standardize base_url from configuration: remove trailing slash and any endpoint path
+        base_url = self.config.base_url.rstrip('/')
+        if base_url.endswith('/conversation') or base_url.endswith('/conversations'):
+            base_url = base_url.rsplit('/', 1)[0]
+        self.config.base_url = base_url
         self.session = requests.Session()
+        import os
+        env_token = os.getenv("INTERCOM_API_TOKEN", "") or ""
+        if env_token:
+            auth_token = env_token
+        else:
+            auth_token = getattr(config, 'api_token', '') or ''
+        if auth_token.startswith("Bearer "):
+            token = auth_token[len("Bearer "):]
+        else:
+            token = auth_token
         self.session.headers.update({
-            'Authorization': f'Bearer {config.api_token}',
+            'Authorization': f"Bearer {token}",
             'Accept': 'application/json',
             'Content-Type': 'application/json',
             'Intercom-Version': config.api_version
         })
+        
+        # Configure retry parameters
+        self.max_retries = getattr(config, 'max_retries', 5)
+        self.initial_backoff = getattr(config, 'initial_backoff', 1)
+        self.backoff_factor = getattr(config, 'backoff_factor', 2)
+        self.max_backoff = getattr(config, 'max_backoff', 60)
     
     def _handle_response(self, response: requests.Response) -> Dict[str, Any]:
         """Handle API response and raise appropriate exceptions."""
-        # Log the raw API response for debugging purposes
         logger.debug(f"Raw API response ({response.status_code}): {response.text}")
         if response.ok:
             return response.json()
@@ -52,99 +88,63 @@ class IntercomClient:
         error_msg = f"API request failed: {response.status_code}"
         try:
             error_data = response.json()
-            if isinstance(error_data, dict):
-                error_msg = f"{error_msg} - {error_data.get('message', '')}"
+            if isinstance(error_data, dict) and error_data.get("message"):
+                error_msg += f" - {error_data.get('message')}"
+            elif response.text:
+                error_msg += f" - {response.text}"
         except ValueError:
-            error_msg = f"{error_msg} - {response.text}"
-        
+            if response.text:
+                error_msg += f" - {response.text}"
         if response.status_code == 401:
             raise AuthenticationError("Invalid API token", response)
         elif response.status_code == 429:
-            raise RateLimitError("Rate limit exceeded", response)
+            retry_after = None
+            if 'Retry-After' in response.headers:
+                try:
+                    retry_after = int(response.headers['Retry-After'])
+                except (ValueError, TypeError):
+                    pass
+            raise RateLimitError("Rate limit exceeded", response, retry_after)
         else:
             raise IntercomAPIError(error_msg, response)
-    
-    def get_conversations(
-        self,
-        conversation_ids: List[int],
-        batch_size: int = 15
-    ) -> List[Dict[str, Any]]:
-        """
-        Fetch conversations in batches.
-        
-        Args:
-            conversation_ids: List of conversation IDs to fetch
-            batch_size: Number of conversations to fetch per request
-        
-        Returns:
-            List of conversation data dictionaries
-        """
-        conversations = []
-        total_batches = (len(conversation_ids) + batch_size - 1) // batch_size
-        
+
+    def get_conversations(self, conversation_ids: list, batch_size: int = None) -> list:
+        """Fetch conversations for given IDs, optionally in batches."""
+        if batch_size is None:
+            batch_size = len(conversation_ids)
+        all_conversations = []
         for i in range(0, len(conversation_ids), batch_size):
-            batch = conversation_ids[i:i + batch_size]
-            logger.info(
-                f"Fetching batch {i//batch_size + 1}/{total_batches} "
-                f"({len(batch)} conversations)"
-            )
-            
-            try:
-                response = self.session.post(
-                    f'{self.config.base_url}/conversations/search',
-                    json={
-                        'query': {
-                            'operator': 'OR',
-                            'value': [{'field': 'id', 'operator': 'IN', 'value': batch}]
-                        },
-                        'display_as': 'plaintext',
-                        'sort_field': 'created_at',
-                        'sort_order': 'desc',
-                        'include_messages': True,
-                        'include_message_parts': True,
-                        'expand': [
-                            'conversation_message',
-                            'conversation_parts',
-                            'contact',
-                            'assignee'
-                        ]
-                    }
-                )
-                
-                data = self._handle_response(response)
-                logger.debug(f"Fetched conversation data: {data}")
-                conversations.extend(data.get('conversations', []))
-                
-            except RateLimitError:
-                logger.warning("Rate limit hit, implementing backoff...")
-                # TODO: Implement exponential backoff retry
-                raise
-            except Exception as e:
-                logger.error(f"Error fetching batch: {str(e)}")
-                raise
-        
-        return conversations
-    
-    def get_conversation(self, conversation_id: int) -> Dict[str, Any]:
-        """
-        Fetch a single conversation by ID. If the conversation data returned by the search endpoint 
-        is incomplete, a fallback GET request is performed to retrieve detailed data.
-        
-        Args:
-            conversation_id: ID of the conversation to fetch
-        
-        Returns:
-            Conversation data dictionary with complete details.
-        """
-        conversations = self.get_conversations([conversation_id])
-        if not conversations:
-            raise IntercomAPIError(f"Conversation {conversation_id} not found")
-        conversation = conversations[0]
-        # Check if the conversation data appears incomplete (e.g., missing conversation_message)
-        if 'conversation_message' not in conversation:
-            logger.debug(f"Incomplete conversation data received for ID {conversation_id}. Fetching detailed data via GET request.")
-            detailed_response = self.session.get(f'{self.config.base_url}/conversations/{conversation_id}')
-            detailed_data = self._handle_response(detailed_response)
-            logger.debug(f"Detailed conversation data: {detailed_data}")
-            conversation = detailed_data
-        return conversation
+            batch = conversation_ids[i:i+batch_size]
+            # Changed payload structure to match expected query format
+            payload = {"display_as": "plaintext", "query": {"value": [{"value": batch}]}}
+            response = self.session.post(f"{self.config.base_url}/conversations", json=payload)
+            data = self._handle_response(response)
+            convs = data.get("conversations", [])
+            if not convs and len(batch) == 1:
+                raise IntercomAPIError(f"Conversation {batch[0]} not found", response)
+            all_conversations.extend(convs)
+        return all_conversations
+
+    def get_conversation(self, conversation_id) -> dict:
+        """Fetch a single conversation by ID.
+        Attempts a GET request first; if it does not yield a conversation matching the provided ID, falls back to a POST request with a query payload."""
+        # Attempt GET request.
+        try:
+            response = self.session.get(f"{self.config.base_url}/conversations/{conversation_id}")
+            data = self._handle_response(response)
+        except IntercomAPIError:
+            data = None
+
+        # Check if the GET response is a conversation object by verifying it has an "id" that matches.
+        if data and data.get("id") and str(data.get("id")) == str(conversation_id):
+            return data
+
+        # Fallback to POST request if GET did not return the expected conversation.
+        payload = {"display_as": "plaintext", "query": {"value": [{"value": conversation_id}]}}
+        response = self.session.post(f"{self.config.base_url}/conversations", json=payload)
+        data = self._handle_response(response)
+        convs = data.get("conversations", [])
+        if convs:
+            return convs[0]
+        else:
+            raise IntercomAPIError(f"Conversation {conversation_id} not found via fallback", response)

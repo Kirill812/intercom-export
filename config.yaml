@@ -1,13 +1,12 @@
 intercom:
-  api_token: "YOUR_INTERCOM_API_TOKEN_HERE"
+  # api_token is not stored here for security reasons.
+  # Please set the token via the INTERCOM_API_TOKEN environment variable or store it securely in /Users/kgory/secrets/intercom_key.txt.
   base_url: "https://api.intercom.io"
-  api_version: "2.8"
-
+  api_version: "2.9"
 export:
   output_format: "markdown"
   output_dir: "exports"
   batch_size: 15
   include_metadata: true
   include_context: true
-
 debug: false

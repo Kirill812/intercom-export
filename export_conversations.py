@@ -26,31 +26,9 @@ def process_single_conversation(convo_id):
     if found:
         print(format_conversation(found))
     else:
+        from src.intercom_export.config import create_config
+        config_obj = create_config(config_file="config.yaml")
         from intercom_export.api.client import IntercomClient
-        import os
-        import yaml
-        config_data = {}
-        # Try to get token from environment first
-        env_token = os.environ.get("INTERCOM_API_TOKEN")
-        if env_token:
-            config_data["api_token"] = env_token
-        try:
-            with open("config.yaml", "r", encoding="utf-8") as f:
-                cfg = yaml.safe_load(f)
-                intercom_cfg = cfg.get("intercom", {})
-                # Set api_token from config if not already set
-                config_data.setdefault("api_token", intercom_cfg.get("api_token"))
-                # Also set api_version and base_url from config with defaults
-                config_data["api_version"] = intercom_cfg.get("api_version", "2.8")
-                config_data["base_url"] = intercom_cfg.get("base_url", "https://api.intercom.io")
-        except Exception as e:
-            # If config.yaml can't be opened, set default values
-            config_data["api_version"] = "2.8"
-            config_data["base_url"] = "https://api.intercom.io"
-        if not config_data.get("api_token"):
-            sys.stderr.write("INTERCOM_API_TOKEN not set and not found in config.yaml. Cannot fetch from API.\n")
-            sys.exit(1)
-        config_obj = type("Config", (object,), config_data)()
         client = IntercomClient(config_obj)
         fetched = client.get_conversation(convo_id)
         if fetched:

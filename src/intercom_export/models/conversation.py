@@ -36,7 +36,7 @@ class Message:
                 type=data['author']['type'],
                 email=data['author'].get('email')
             ),
-            created_at=datetime.fromtimestamp(data['created_at']),
+            created_at=datetime.utcfromtimestamp(data['created_at']),
             type=data['part_type'],
             metadata={
                 k: v for k, v in data.items()
@@ -61,10 +61,9 @@ class Conversation:
     @classmethod
     def from_api_data(cls, data: Dict[str, Any]) -> 'Conversation':
         """Create a Conversation instance from API response data."""
-        # Extract messages from conversation parts
         messages = []
         
-        # Add initial message if present
+        # Add initial message
         if 'conversation_message' in data:
             messages.append(Message.from_api_data({
                 **data['conversation_message'],
@@ -76,14 +75,12 @@ class Conversation:
             parts = data['conversation_parts'].get('conversation_parts', [])
             for part in parts:
                 try:
-                    if isinstance(part, dict) and part.get('body'):  # Only include parts with content
+                    if isinstance(part, dict) and part.get('body'):
                         messages.append(Message.from_api_data(part))
                 except Exception as e:
-                    # Log warning and skip invalid part entries
                     import logging
                     logging.getLogger(__name__).warning(f"Skipping invalid conversation part: {e}")
         
-        # Sort messages by creation time
         messages.sort(key=lambda m: m.created_at)
         
         return cls(
@@ -94,7 +91,13 @@ class Conversation:
             state=data.get('state', 'open'),
             messages=messages,
             custom_attributes=data.get('custom_attributes', {}),
-            tags=[tag['name'] for tag in data.get('tags', {}).get('tags', [])],
+            tags=[
+                tag.get('name', tag) if isinstance(tag, dict) else tag 
+                for tag in (
+                    data.get('tags') if isinstance(data.get('tags'), list)
+                    else data.get('tags', {}).get('tags', [])
+                )
+            ],
             source=data.get('source', {}),
             metadata={
                 k: v for k, v in data.items()
